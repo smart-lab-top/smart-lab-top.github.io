@@ -21,7 +21,7 @@ RUN apt-get update -y && \
         python3-pip \
         zlib1g-dev && \
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
-    pip --no-cache-dir install --upgrade --break-system-packages nbconvert
+    pip --no-cache-dir install --upgrade nbconvert
 
 # 清理缓存
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
