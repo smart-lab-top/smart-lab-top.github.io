@@ -11,9 +11,9 @@ LABEL authors="Amir Pourmand,George Araújo" \
       maintainer="Amir Pourmand"
 
 # configure APT sources for faster downloads in China
-RUN echo "deb https://mirrors.aliyun.com/debian/ bookworm main" > /etc/apt/sources.list && \
-    echo "deb https://mirrors.aliyun.com/debian/ bookworm-updates main" >> /etc/apt/sources.list && \
-    echo "deb https://mirrors.aliyun.com/debian/ bookworm-backports main" >> /etc/apt/sources.list && \
+RUN echo "deb https://mirrors.aliyun.com/debian/ bullseye main" > /etc/apt/sources.list && \
+    echo "deb https://mirrors.aliyun.com/debian/ bullseye-updates main" >> /etc/apt/sources.list && \
+    echo "deb https://mirrors.aliyun.com/debian/ bullseye-backports main" >> /etc/apt/sources.list && \
     rm -f /etc/apt/sources.list.d/* || true
 
 # install system dependencies
