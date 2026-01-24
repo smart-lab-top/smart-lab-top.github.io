@@ -59,6 +59,13 @@ CMD ["jekyll", "serve", "--host", "0.0.0.0"]
 - 配置了国内 RubyGems 镜像源加速依赖安装
 - 如果仍遇到网络问题，可先配置 Docker 镜像加速器（见下方章节）
 
+**国内服务器加速重要说明：**
+国内服务器构建镜像时，需要处理两个层面的加速：
+1. **Docker 镜像层**：通过配置 `/etc/docker/daemon.json` 的 `registry-mirrors` 加速基础镜像下载
+2. **系统依赖包**：通过在 Dockerfile 中配置国内 APT 源（如阿里云镜像）加速 `apt-get update` 下载
+
+**只有同时处理这两个层面，才能实现全程快速构建。** 单独配置 Docker 镜像加速器只能解决基础镜像下载，无法解决容器内 `apt-get` 的慢速问题。
+
 **为什么推荐这个镜像？** `amirpourmand/al-folio` 是专门为 al-folio 优化的镜像，已包含所有依赖（大小约 1.43GB），避免每次构建时重新下载 Ruby gems。首次拉取后，本地缓存会复用，更新时只需重新构建项目代码。相比 `jekyll/jekyll:latest`，构建速度更快。
 
 ## 步骤 1: 推送代码到 GitHub

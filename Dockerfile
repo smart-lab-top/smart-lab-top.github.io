@@ -40,8 +40,9 @@ RUN apt-get update -y && \
         locales \
         nodejs \
         procps \
-        python3-pip \
+python3-pip \
         zlib1g-dev && \
+    pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
     pip --no-cache-dir install --upgrade --break-system-packages nbconvert
 
 # clean up
