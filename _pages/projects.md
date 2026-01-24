@@ -2,14 +2,15 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Discover SMART Lab's innovative projects, from cutting-edge research initiatives to interactive web applications and acoustic monitoring tools.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [work, fun]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

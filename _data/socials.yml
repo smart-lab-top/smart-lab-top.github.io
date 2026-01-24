@@ -1,14 +1,24 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+# cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+# email: you@example.com # your email address
+# inspirehep_id: 1010907 # Inspire HEP author ID
+rss_icon: false # comment this line to hide the RSS icon
+scholar_userid: IEfV3ZYAAAAJ
+github_username: jfshanghai
+orcid_id: 0000-0002-2107-8013
+research_gate_profile: Jianfeng-Tong
+
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+
+# sciprofiles:
+#   logo: assets/img/prof_pic.jpg
+#   title: SciProfiles
+#   url: https://sciprofiles.com/profile/1400075
+
+# frontiers:
+#   logo: assets/img/prof_pic.jpg
+#   title: Frontiers
+#   url: https://loop.frontiersin.org/people/1638805/overview

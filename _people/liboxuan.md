@@ -1,0 +1,52 @@
+---
+layout: page
+name: "Boxuan Li （李柏萱）"
+position: "Master (2023)"
+description: "Master's Candidate"
+img: assets/img/liboxuan.jpg
+importance: 1
+category: master
+email: "jnddlsp@126.com"
+research: "active acoustics, tunas monitoring"
+lab_period: "2023 - 2026"
+github: "https://github.com/liboxuan"
+website: "https://liboxuan-research.com"
+---
+
+## About Me
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/liboxuan.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p>I will soon complet my Master's degree at the FA Lab of Shanghai Ocean University in April 2026.</p>
+    </div>
+</div>
+
+## Research Interests
+
+- Active acoustic monitoring
+- Underwater soundscape analysis
+
+## Education
+
+- **MSc in Fisheries Development**, Shanghai Ocean University (2023 - 2026)
+- **BSc in Engineering in Information Management and Information System**, Shandong Technology and Business University (2019 - 2023)
+
+## Publications
+
+- Not Applicable
+
+## Contact
+
+- **Email**: jnddlsp@126.com
+
+## Lab Contributions
+
+During my time in SMART Lab (2023-2026), I contributed to:
+
+- Development of Fisheries Acoustic Satellite Electric Buoys
+- 2024 High Seas Fishery Resources Survey in the Northwest Pacific Ocean
+- Conducted Field Acoustic Surveys in Waters Such as Ningde, Fujian and Xinxiang, Henan
+- Acoustic Data Simulation of Tuna

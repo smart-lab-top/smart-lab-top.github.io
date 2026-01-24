@@ -1,0 +1,49 @@
+<div class="col">
+  <a href="{% if person.redirect %}{{ person.redirect }}{% else %}{{ person.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      {% if person.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=person.img
+          sizes="250px"
+          alt="profile photo"
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ person.name }}</h2>
+        <p class="card-text">{{ person.position }}</p>
+        {% if person.lab_period %}
+        <p class="card-text"><small class="text-info">{{ person.lab_period }}</small></p>
+        {% endif %}
+        {% if person.research %}
+        <p class="card-text"><small class="text-muted">{{ person.research }}</small></p>
+        {% endif %}
+        <div class="row ml-1 mr-1 p-0">
+          {% if person.email %}
+            <div class="contact-icon">
+              <div class="icon" data-toggle="tooltip" title="Email">
+                <a href="mailto:{{ person.email }}"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          {% endif %}
+          {% if person.website %}
+            <div class="contact-icon">
+              <div class="icon" data-toggle="tooltip" title="Website">
+                <a href="{{ person.website }}" target="_blank"><i class="fa-solid fa-globe"></i></a>
+              </div>
+            </div>
+          {% endif %}
+          {% if person.github %}
+            <div class="contact-icon">
+              <div class="icon" data-toggle="tooltip" title="GitHub">
+                <a href="{{ person.github }}" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

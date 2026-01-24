@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/
 title: blog
 nav: true
-nav_order: 1
+nav_order: 2
 pagination:
   enabled: true
   collection: posts
@@ -24,6 +24,11 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
+    {% if site.blog_image %}
+    <div class="blog-header-image">
+      <img src="{{ site.blog_image | relative_url }}" alt="SMART Lab Blog" class="img-fluid rounded">
+    </div>
+    {% endif %}
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
