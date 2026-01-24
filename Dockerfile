@@ -1,5 +1,5 @@
-# 使用具体的版本号，避免 slim 标签变动导致的兼容性问题
-FROM ruby:3.1.2-slim
+# 直接从国内镜像站拉取基础镜像，绕过 Docker Hub 超时问题
+FROM docker.m.daocloud.io/library/ruby:3.1.2-slim
 
 ENV DEBIAN_FRONTEND noninteractive
 
