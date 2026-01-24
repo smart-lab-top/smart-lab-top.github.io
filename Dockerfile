@@ -42,8 +42,8 @@ COPY Gemfile* /srv/jekyll/
 RUN gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ && \
     gem install bundler && \
     bundle config set mirror.https://rubygems.org https://gems.ruby-china.com && \
-    git config --global url."https://mirror.ghproxy.com/https://github.com/".insteadOf "https://github.com/" && \
-    bundle install --no-cache || (bundle update --bundler && bundle install --no-cache)
+    git config --global url."https://ghp.ci/https://github.com/".insteadOf "https://github.com/" && \
+    bundle install --no-cache
 
 EXPOSE 4000
 
