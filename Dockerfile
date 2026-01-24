@@ -71,6 +71,9 @@ ADD Gemfile /srv/jekyll
 # set the working directory
 WORKDIR /srv/jekyll
 
+# configure Gemfile to use China mirrors
+RUN sed -i 's|https://rubygems.org|https://gems.ruby-china.com|g' /srv/jekyll/Gemfile
+
 # install jekyll and dependencies
 RUN gem install --no-document jekyll bundler
 
