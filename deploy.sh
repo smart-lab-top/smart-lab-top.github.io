@@ -14,6 +14,23 @@ echo "开始部署 smart-lab 网站..."
 # 更新代码，假设脚本在项目根目录运行
 git pull origin main  # 更新代码，假设默认分支是 main
 
+# 检查 Docker 是否配置了镜像加速器
+if [ ! -f "/etc/docker/daemon.json" ]; then
+    echo "警告：未检测到 Docker 镜像加速器配置，建议先配置以加速下载。"
+    echo "请运行以下命令配置阿里云加速器："
+    echo "sudo mkdir -p /etc/docker"
+    echo "sudo tee /etc/docker/daemon.json > /dev/null <<EOF"
+    echo "{"
+    echo "  \"registry-mirrors\": [\"https://your-id.mirror.aliyuncs.com\"]"
+    echo "}"
+    echo "EOF"
+    echo "sudo systemctl daemon-reload"
+    echo "sudo systemctl restart docker"
+    echo ""
+    echo "请将 your-id 替换为你的阿里云加速器 ID，然后重新运行 deploy.sh"
+    exit 1
+fi
+
 # 停止并移除旧容器（如果存在）
 echo "停止并清理旧容器..."
 docker stop "$CONTAINER_NAME" 2>/dev/null || true

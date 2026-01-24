@@ -1,4 +1,7 @@
-FROM registry.cn-hangzhou.aliyuncs.com/ruby:slim
+# 国内服务器使用阿里云镜像源
+# FROM registry.cn-hangzhou.aliyuncs.com/library/ruby:slim
+# 如果上述镜像不可用，使用官方镜像
+FROM ruby:slim
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
