@@ -1,5 +1,5 @@
 # 使用官方镜像 + Docker 镜像加速器
-FROM ruby:slim
+FROM ruby:3.1.2-slim
 
 # 在国内服务器上，Docker 会自动使用配置的镜像加速器
 # 请确保已配置 /etc/docker/daemon.json 中的 registry-mirrors
