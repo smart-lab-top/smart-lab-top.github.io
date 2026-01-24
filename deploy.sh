@@ -1,70 +1,60 @@
 #!/bin/bash
 
-# smart-lab 网站一键部署脚本
-# 使用方法：在服务器上运行 bash deploy.sh
-# 前提：服务器已安装 Docker 和 Git
-
-# 配置变量
 IMAGE_NAME="smart-lab-site"
 CONTAINER_NAME="smart-lab-container"
 PORT="8080"
 
 echo "开始部署 smart-lab 网站..."
 
-# 更新代码，假设脚本在项目根目录运行
-git pull origin main  # 更新代码，假设默认分支是 main
+# 1. 更新代码
+git config --global filter.lfs.clean ''
+git config --global filter.lfs.smudge ''
+git config --global filter.lfs.process ''
+git pull origin main
 
-# 检查 Docker 是否配置了镜像加速器
-if [ ! -f "/etc/docker/daemon.json" ]; then
-    echo "警告：未检测到 Docker 镜像加速器配置，建议先配置以加速下载。"
-    echo "请运行以下命令配置阿里云加速器："
-    echo "sudo mkdir -p /etc/docker"
-    echo "sudo tee /etc/docker/daemon.json > /dev/null <<EOF"
-    echo "{"
-    echo "  \"registry-mirrors\": [\"https://your-id.mirror.aliyuncs.com\"]"
-    echo "}"
-    echo "EOF"
-    echo "sudo systemctl daemon-reload"
-    echo "sudo systemctl restart docker"
-    echo ""
-    echo "请将 your-id 替换为你的阿里云加速器 ID，然后重新运行 deploy.sh"
-    exit 1
-fi
-
-# 停止并移除旧容器（如果存在）
-echo "停止并清理旧容器..."
-docker stop "$CONTAINER_NAME" 2>/dev/null || true
-docker rm "$CONTAINER_NAME" 2>/dev/null || true
-
-# 移除旧镜像（可选，避免占用空间）
-docker rmi "$IMAGE_NAME" 2>/dev/null || true
-
-# 配置 Docker 镜像加速器（如果配置了）
-if [ -f "/etc/docker/daemon.json" ]; then
-    echo "检测到Docker镜像加速器配置"
-else
-    echo "配置Docker镜像加速器..."
-    sudo mkdir -p /etc/docker
-    sudo tee /etc/docker/daemon.json > /dev/null <<EOF
+# 2. 配置 Docker 镜像加速器 (针对中国环境优化)
+echo "更新 Docker 镜像加速器..."
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json > /dev/null <<EOF
 {
   "registry-mirrors": [
-    "https://docker.mirrors.ustc.edu.cn",
-    "https://hub-mirror.c.163.com",
-    "https://mirror.baidubce.com"
+    "https://dockerproxy.net",
+    "https://docker.m.daocloud.io",
+    "https://docker.udayun.com",
+    "https://docker.anyhub.us.kg",
+    "https://dockerhub.jobcher.com"
   ]
 }
 EOF
-    sudo systemctl daemon-reload
-    sudo systemctl restart docker
-    echo "等待Docker重启..."
-    sleep 5
-fi
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+sleep 3
 
-# 构建新镜像
+# 3. 清理旧容器
+echo "清理旧容器..."
+docker stop "$CONTAINER_NAME" 2>/dev/null || true
+docker rm "$CONTAINER_NAME" 2>/dev/null || true
+
+# 4. 构建镜像 (添加重试逻辑)
 echo "构建 Docker 镜像..."
-docker build -t "$IMAGE_NAME" .
+MAX_RETRIES=3
+COUNT=0
+while [ $COUNT -lt $MAX_RETRIES ]; do
+    if docker build -t "$IMAGE_NAME" .; then
+        echo "镜像构建成功！"
+        break
+    else
+        COUNT=$((COUNT + 1))
+        echo "构建失败，重试 ($COUNT/$MAX_RETRIES)..."
+        sleep 5
+    fi
+    if [ $COUNT -eq $MAX_RETRIES ]; then
+        echo "错误：镜像构建多次失败，请检查网络。"
+        exit 1
+    fi
+done
 
-# 运行新容器
+# 5. 启动容器
 echo "启动容器..."
 docker run -d \
     -p "$PORT":4000 \
@@ -73,15 +63,16 @@ docker run -d \
     --restart unless-stopped \
     "$IMAGE_NAME"
 
-# 检查容器状态
+# 6. 验证
+sleep 5
 if [ "$(docker ps -q -f name=$CONTAINER_NAME)" ]; then
-    echo "部署成功！网站运行在 http://localhost:$PORT"
-    echo "如果需要外部访问，请确保防火墙允许端口 $PORT"
-    echo "查看容器日志: docker logs -f $CONTAINER_NAME"
+    echo "------------------------------------------------"
+    echo "部署成功！"
+    echo "网站地址: http://47.93.91.76:$PORT"
+    echo "日志查看: docker logs -f $CONTAINER_NAME"
+    echo "------------------------------------------------"
 else
-    echo "部署失败，请检查日志："
+    echo "部署失败，详情请看日志："
     docker logs "$CONTAINER_NAME"
     exit 1
 fi
-
-echo "部署完成。"

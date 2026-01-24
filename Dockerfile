@@ -1,21 +1,13 @@
-# 使用官方镜像 + Docker 镜像加速器
+# 使用具体的版本号，避免 slim 标签变动导致的兼容性问题
 FROM ruby:3.1.2-slim
-
-# 在国内服务器上，Docker 会自动使用配置的镜像加速器
-# 请确保已配置 /etc/docker/daemon.json 中的 registry-mirrors
 
 ENV DEBIAN_FRONTEND noninteractive
 
-LABEL authors="Amir Pourmand,George Araújo" \
-      description="Docker image for al-folio academic template" \
-      maintainer="Amir Pourmand"
+# 使用标准的 Debian Bullseye 源，这是最稳定的
+RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
+    sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 
-# configure APT sources for faster downloads in China
-RUN echo "deb https://mirrors.aliyun.com/debian/ bullseye main" > /etc/apt/sources.list && \
-    echo "deb https://mirrors.aliyun.com/debian/ bullseye-updates main" >> /etc/apt/sources.list && \
-    rm -f /etc/apt/sources.list.d/* || true
-
-# install system dependencies
+# 安装系统依赖
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
         build-essential \
@@ -31,45 +23,30 @@ RUN apt-get update -y && \
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
     pip --no-cache-dir install --upgrade --break-system-packages nbconvert
 
-# clean up
-RUN apt-get clean && \
-    apt-get autoremove && \
-    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*  /tmp/*
+# 清理缓存
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# set locale
-RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
-    locale-gen
-
-# set environment variables
-ENV EXECJS_RUNTIME=Node \
-    JEKYLL_ENV=production \
-    LANG=en_US.UTF-8 \
+# 设置语言环境
+RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && locale-gen
+ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
-    LC_ALL=en_US.UTF-8
+    LC_ALL=en_US.UTF-8 \
+    JEKYLL_ENV=production
 
-# create a directory for the jekyll site
-RUN mkdir /srv/jekyll
-
-# copy Gemfile and Gemfile.lock to the image
-COPY Gemfile.lock /srv/jekyll
-COPY Gemfile /srv/jekyll
-
-# set working directory
 WORKDIR /srv/jekyll
 
-# install jekyll and dependencies
-RUN gem install --no-document jekyll bundler
+# 复制 Gemfile
+COPY Gemfile* /srv/jekyll/
 
-# configure Gemfile to use stable gem sources
-RUN gem sources --clear-all && \
-    gem sources --add https://rubygems.org/ && \
-    bundle config set mirror.https://rubygems.org https://gems.ruby-china.com/
-
-# install dependencies
-RUN bundle install --no-cache
+# 配置 RubyGems 国内镜像并安装
+RUN gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ && \
+    gem install bundler && \
+    bundle config set mirror.https://rubygems.org https://gems.ruby-china.com && \
+    bundle install --no-cache
 
 EXPOSE 4000
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
+RUN chmod +x /tmp/entry_point.sh
 
 CMD ["/tmp/entry_point.sh"]
