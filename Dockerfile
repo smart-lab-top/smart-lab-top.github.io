@@ -24,14 +24,10 @@ LABEL authors="Amir Pourmand,George Araújo" \
 #     useradd -u $USERID -m -g $GROUPNAME $USERNAME
 
 # configure APT sources for faster downloads in China
-RUN if [ -f /etc/apt/sources.list ]; then \
-        sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
-        sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list; \
-    else \
-        echo "deb https://mirrors.aliyun.com/debian/ trixie main" > /etc/apt/sources.list && \
-        echo "deb https://mirrors.aliyun.com/debian/ trixie-updates main" >> /etc/apt/sources.list && \
-        echo "deb https://mirrors.aliyun.com/debian-security/ trixie-security main" >> /etc/apt/sources.list; \
-    fi
+RUN echo "deb https://mirrors.aliyun.com/debian/ trixie main" > /etc/apt/sources.list && \
+    echo "deb https://mirrors.aliyun.com/debian/ trixie-updates main" >> /etc/apt/sources.list && \
+    echo "deb https://mirrors.aliyun.com/debian-security/ trixie-security main" >> /etc/apt/sources.list && \
+    rm -f /etc/apt/sources.list.d/* || true
 
 # install system dependencies
 RUN apt-get update -y && \
