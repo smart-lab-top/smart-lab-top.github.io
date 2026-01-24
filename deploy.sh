@@ -39,6 +39,27 @@ docker rm "$CONTAINER_NAME" 2>/dev/null || true
 # 移除旧镜像（可选，避免占用空间）
 docker rmi "$IMAGE_NAME" 2>/dev/null || true
 
+# 配置 Docker 镜像加速器（如果配置了）
+if [ -f "/etc/docker/daemon.json" ]; then
+    echo "检测到Docker镜像加速器配置"
+else
+    echo "配置Docker镜像加速器..."
+    sudo mkdir -p /etc/docker
+    sudo tee /etc/docker/daemon.json > /dev/null <<EOF
+{
+  "registry-mirrors": [
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
+EOF
+    sudo systemctl daemon-reload
+    sudo systemctl restart docker
+    echo "等待Docker重启..."
+    sleep 5
+fi
+
 # 构建新镜像
 echo "构建 Docker 镜像..."
 docker build -t "$IMAGE_NAME" .
@@ -49,6 +70,7 @@ docker run -d \
     -p "$PORT":4000 \
     -v "$(pwd)":/srv/jekyll \
     --name "$CONTAINER_NAME" \
+    --restart unless-stopped \
     "$IMAGE_NAME"
 
 # 检查容器状态
