@@ -1,7 +1,8 @@
-# 国内服务器使用阿里云镜像源
-# FROM registry.cn-hangzhou.aliyuncs.com/library/ruby:slim
-# 如果上述镜像不可用，使用官方镜像
+# 使用官方镜像 + Docker 镜像加速器
 FROM ruby:slim
+
+# 在国内服务器上，Docker 会自动使用配置的镜像加速器
+# 请确保已配置 /etc/docker/daemon.json 中的 registry-mirrors
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
@@ -21,6 +22,10 @@ LABEL authors="Amir Pourmand,George Araújo" \
 # add a non-root user to the image with a specific group and user id to avoid permission issues
 # RUN groupadd -r $GROUPNAME -g $GROUPID && \
 #     useradd -u $USERID -m -g $GROUPNAME $USERNAME
+
+# configure APT sources for faster downloads in China
+RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
+    sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 
 # install system dependencies
 RUN apt-get update -y && \
