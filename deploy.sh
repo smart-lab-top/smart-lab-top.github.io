@@ -33,27 +33,25 @@ fi
 
 # 停止并移除旧容器（如果存在）
 echo "停止并清理旧容器..."
-docker stop "$CONTAINER_NAME" 2>/dev/null || true
-docker rm "$CONTAINER_NAME" 2>/dev/null || true
-
-# 移除旧镜像（可选，避免占用空间）
-docker rmi "$IMAGE_NAME" 2>/dev/null || true
+docker-compose down 2>/dev/null || true
 
 # 构建新镜像
 echo "构建 Docker 镜像..."
-docker build -t "$IMAGE_NAME" .
+docker-compose build --no-cache
 
-# 运行新容器
+# 启动新容器
 echo "启动容器..."
-docker run -d -p "$PORT":4000 --name "$CONTAINER_NAME" "$IMAGE_NAME"
+docker-compose up -d
 
 # 检查容器状态
-if [ "$(docker ps -q -f name=$CONTAINER_NAME)" ]; then
+sleep 5  # 等待容器启动
+if [ "$(docker-compose ps -q)" ]; then
     echo "部署成功！网站运行在 http://localhost:$PORT"
     echo "如果需要外部访问，请确保防火墙允许端口 $PORT"
+    echo "查看容器日志: docker-compose logs -f"
 else
     echo "部署失败，请检查日志："
-    docker logs "$CONTAINER_NAME"
+    docker-compose logs
     exit 1
 fi
 
