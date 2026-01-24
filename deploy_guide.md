@@ -27,12 +27,23 @@
 ### 3. 项目配置
 - 确保项目根目录有 `Dockerfile` 和 `docker-compose.yml`（如果需要）。
 - 如果没有，需要创建适合 Jekyll 的 Docker 配置。
-- 示例 `Dockerfile`（推荐使用预构建镜像加速）：
+- 示例 `Dockerfile`（国内服务器优化版）：
 
 ```dockerfile
-FROM amirpourmand/al-folio:latest
+# 国内服务器使用阿里云 Ruby 镜像源
+FROM registry.cn-hangzhou.aliyuncs.com/ruby:slim
 
+# 基于项目实际 Dockerfile 的简化版本
 WORKDIR /srv/jekyll
+
+COPY Gemfile Gemfile.lock ./
+
+# 使用国内 RubyGems 镜像源加速
+RUN gem sources --clear-all && \
+    gem sources --add https://gems.ruby-china.com/ && \
+    gem install --no-document jekyll bundler && \
+    bundle config mirror.https://rubygems.org https://gems.ruby-china.com && \
+    bundle install --no-cache
 
 COPY . .
 
@@ -42,6 +53,11 @@ EXPOSE 4000
 
 CMD ["jekyll", "serve", "--host", "0.0.0.0"]
 ```
+
+**说明：**
+- 基于项目的实际 Dockerfile 使用 `ruby:slim` 作为基础镜像（不是预构建的 al-folio 镜像）
+- 配置了国内 RubyGems 镜像源加速依赖安装
+- 如果仍遇到网络问题，可先配置 Docker 镜像加速器（见下方章节）
 
 **为什么推荐这个镜像？** `amirpourmand/al-folio` 是专门为 al-folio 优化的镜像，已包含所有依赖（大小约 1.43GB），避免每次构建时重新下载 Ruby gems。首次拉取后，本地缓存会复用，更新时只需重新构建项目代码。相比 `jekyll/jekyll:latest`，构建速度更快。
 
@@ -266,6 +282,42 @@ docker logs smart-lab-container
 # Nginx 日志
 sudo tail -f /var/log/nginx/error.log
 ```
+
+## 国内服务器加速
+
+### 1. 配置 Docker 镜像加速器
+如果你使用阿里云等国内云服务器，推荐配置 Docker 镜像加速器：
+
+1. **阿里云用户**：
+   - 登录阿里云控制台 → 容器镜像服务 → 镜像加速器
+   - 获取你的专属加速器地址（如 `https://your-id.mirror.aliyuncs.com`）
+
+2. **配置 Docker**：
+```bash
+# 创建或编辑 Docker 配置文件
+sudo nano /etc/docker/daemon.json
+```
+
+添加内容：
+```json
+{
+  "registry-mirrors": [
+    "https://your-id.mirror.aliyuncs.com"
+  ]
+}
+```
+
+3. **重启 Docker**：
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
+### 2. 其他国内镜像源
+除了阿里云，还可以考虑：
+- 网易云：`https://hub-mirror.c.163.com`
+- 中科大：`https://docker.mirrors.ustc.edu.cn`
+- 腾讯云：`https://mirror.ccs.tencentyun.com`
 
 ## 常见问题解答 (FAQ)
 
