@@ -5,27 +5,14 @@
 # 前提：服务器已安装 Docker 和 Git
 
 # 配置变量
-REPO_URL="https://github.com/your-username/your-repo-name.git"  # 替换为你的 GitHub 仓库 URL
-PROJECT_DIR="smart-lab"
 IMAGE_NAME="smart-lab-site"
 CONTAINER_NAME="smart-lab-container"
 PORT="8080"
 
 echo "开始部署 smart-lab 网站..."
 
-# 检查项目目录是否存在
-if [ ! -d "$PROJECT_DIR" ]; then
-    echo "克隆仓库..."
-    git clone "$REPO_URL" "$PROJECT_DIR"
-else
-    echo "更新代码..."
-    cd "$PROJECT_DIR"
-    git pull origin main  # 假设默认分支是 main
-    cd ..
-fi
-
-# 进入项目目录
-cd "$PROJECT_DIR"
+# 更新代码，假设脚本在项目根目录运行
+git pull origin main  # 更新代码，假设默认分支是 main
 
 # 停止并移除旧容器（如果存在）
 echo "停止并清理旧容器..."
