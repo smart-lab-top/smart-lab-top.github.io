@@ -77,8 +77,14 @@ RUN gem install --no-document jekyll bundler
 # configure network mirrors for China
 RUN gem sources --clear-all && \
     gem sources --add https://gems.ruby-china.com/ && \
-    bundle config mirror.https://rubygems.org https://gems.ruby-china.com/ && \
-    git config --global url."https://mirror.ghproxy.com/".insteadOf "https://github.com/"
+    bundle config set mirror.https://rubygems.org https://gems.ruby-china.com/ && \
+    git config --global url."https://mirror.ghproxy.com/".insteadOf "https://github.com/" && \
+    git config --global url."https://gitclone.github.com/".insteadOf "git@github.com:" && \
+    git config --global http.postBuffer 524288000 && \
+    git config --global http.maxRequestBuffer 100M && \
+    git config --global core.compression 0 && \
+    git config --global http.lowSpeedLimit 0 && \
+    git config --global http.lowSpeedTime 999999
 
 # install dependencies with network optimization
 RUN bundle install --no-cache
