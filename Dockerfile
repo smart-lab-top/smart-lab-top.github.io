@@ -100,7 +100,7 @@ RUN gem sources --clear-all && \
 # install dependencies with network optimization
 RUN bundle install --no-cache
 
-EXPOSE 8080
+EXPOSE 4000
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
 

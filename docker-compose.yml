@@ -12,8 +12,8 @@ services:
     #     GROUPNAME: # id -gn
     #     USERID: # id -u
     #     USERNAME: # echo $USER
-    ports:
-      - 8080:8080
+ports:
+      - 8080:4000
       - 35729:35729
     volumes:
       - .:/srv/jekyll
