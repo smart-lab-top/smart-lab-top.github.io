@@ -73,6 +73,14 @@ WORKDIR /srv/jekyll
 
 # install jekyll and dependencies
 RUN gem install --no-document jekyll bundler
+
+# configure network mirrors for China
+RUN gem sources --clear-all && \
+    gem sources --add https://gems.ruby-china.com/ && \
+    bundle config mirror.https://rubygems.org https://gems.ruby-china.com/ && \
+    git config --global url."https://mirror.ghproxy.com/".insteadOf "https://github.com/"
+
+# install dependencies with network optimization
 RUN bundle install --no-cache
 
 EXPOSE 8080

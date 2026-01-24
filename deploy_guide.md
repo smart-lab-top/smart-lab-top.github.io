@@ -292,8 +292,40 @@ sudo tail -f /var/log/nginx/error.log
 
 ## 国内服务器加速
 
-### 1. 配置 Docker 镜像加速器
-如果你使用阿里云等国内云服务器，推荐配置 Docker 镜像加速器：
+### 1. 快速配置（推荐）
+项目提供了自动化配置脚本，可以快速设置 Docker 镜像加速器：
+
+```bash
+# 运行自动化配置脚本
+bash setup-docker-mirror.sh
+```
+
+该脚本会自动：
+- 创建 Docker 配置目录 `/etc/docker`
+- 配置多个国内镜像源（腾讯云、网易云、中科大等）
+- 重启 Docker 服务使配置生效
+
+**运行完成后会显示：** "Docker 镜像加速器配置完成！现在可以运行 bash deploy.sh 了"
+
+**重要说明：**
+- `setup-docker-mirror.sh` **只需执行一次**，用于配置 Docker 环境
+- `deploy.sh` **每次更新网站时都需要执行**
+- 只在以下情况需要重新运行 `setup-docker-mirror.sh`：
+  - 首次部署或更换服务器
+  - 想要更改镜像源配置
+  - Docker 配置被意外重置
+
+**正常部署流程：**
+```bash
+# 首次部署（只需一次）
+bash setup-docker-mirror.sh
+
+# 每次更新网站内容时
+bash deploy.sh
+```
+
+### 2. 手动配置
+如果需要使用自定义镜像源（如阿里云专属加速器），可以手动配置：
 
 1. **阿里云用户**：
    - 登录阿里云控制台 → 容器镜像服务 → 镜像加速器
