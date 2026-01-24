@@ -71,23 +71,31 @@ ADD Gemfile /srv/jekyll
 # set the working directory
 WORKDIR /srv/jekyll
 
-# configure Gemfile to use China mirrors
-RUN sed -i 's|https://rubygems.org|https://gems.ruby-china.com|g' /srv/jekyll/Gemfile
-
 # install jekyll and dependencies
 RUN gem install --no-document jekyll bundler
+
+# pre-download jekyll-terser manually if network fails
+RUN gem install --no-document https://github.com/RobertoJBeltran/jekyll-terser/releases/download/v0.2.0/jekyll-terser-0.2.0.gem || \
+    echo "Manual download failed, will try git clone during bundle install"
+
+# configure Gemfile to use China mirrors
+RUN sed -i 's|https://rubygems.org|https://gems.ruby-china.com|g' /srv/jekyll/Gemfile && \
+    sed -i 's|.*jekyll-terser.*git.*|# gem '\''jekyll-terser'\'' # installed manually|g' /srv/jekyll/Gemfile
 
 # configure network mirrors for China
 RUN gem sources --clear-all && \
     gem sources --add https://gems.ruby-china.com/ && \
     bundle config set mirror.https://rubygems.org https://gems.ruby-china.com/ && \
-    git config --global url."https://mirror.ghproxy.com/".insteadOf "https://github.com/" && \
-    git config --global url."https://gitclone.github.com/".insteadOf "git@github.com:" && \
+    git config --global url."https://hub.fastgit.xyz/".insteadOf "https://github.com/" && \
+    git config --global url."https://mirror.ghproxy.com/https://github.com/".insteadOf "git@github.com:" && \
+    git config --global url."https://gitclone.github.com/".insteadOf "https://git@github.com:" && \
     git config --global http.postBuffer 524288000 && \
     git config --global http.maxRequestBuffer 100M && \
     git config --global core.compression 0 && \
     git config --global http.lowSpeedLimit 0 && \
-    git config --global http.lowSpeedTime 999999
+    git config --global http.lowSpeedTime 999999 && \
+    git config --global http.proxy "" && \
+    git config --global https.proxy ""
 
 # install dependencies with network optimization
 RUN bundle install --no-cache
