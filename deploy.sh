@@ -31,27 +31,39 @@ if [ ! -f "/etc/docker/daemon.json" ]; then
     exit 1
 fi
 
+# 检查 docker-compose 或 docker compose 是否可用
+if command -v docker-compose &> /dev/null; then
+    COMPOSE_CMD="docker-compose"
+elif docker compose version &> /dev/null; then
+    COMPOSE_CMD="docker compose"
+else
+    echo "错误：未找到 docker-compose 或 docker compose。请先安装 Docker Compose。"
+    exit 1
+fi
+
+echo "使用命令: $COMPOSE_CMD"
+
 # 停止并移除旧容器（如果存在）
 echo "停止并清理旧容器..."
-docker-compose down 2>/dev/null || true
+$COMPOSE_CMD down 2>/dev/null || true
 
 # 构建新镜像
 echo "构建 Docker 镜像..."
-docker-compose build --no-cache
+$COMPOSE_CMD build --no-cache
 
 # 启动新容器
 echo "启动容器..."
-docker-compose up -d
+$COMPOSE_CMD up -d
 
 # 检查容器状态
 sleep 5  # 等待容器启动
-if [ "$(docker-compose ps -q)" ]; then
+if [ "$($COMPOSE_CMD ps -q)" ]; then
     echo "部署成功！网站运行在 http://localhost:$PORT"
     echo "如果需要外部访问，请确保防火墙允许端口 $PORT"
-    echo "查看容器日志: docker-compose logs -f"
+    echo "查看容器日志: $COMPOSE_CMD logs -f"
 else
     echo "部署失败，请检查日志："
-    docker-compose logs
+    $COMPOSE_CMD logs
     exit 1
 fi
 
