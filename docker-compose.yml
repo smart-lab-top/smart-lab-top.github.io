@@ -18,4 +18,4 @@ services:
     volumes:
       - .:/srv/jekyll
     environment:
-      - JEKYLL_ENV=development
+      - JEKYLL_ENV=production
