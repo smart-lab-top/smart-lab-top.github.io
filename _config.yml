@@ -420,34 +420,34 @@ enable_video_embedding: false # enables video embedding for bibtex entries. If f
 # The integrity hash is used to ensure that the library is not tampered with.
 # Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
 third_party_libraries:
-  download: true # if true, download the versions of the libraries specified below and use the downloaded files
+  download: false # if true, download the versions of the libraries specified below and use the downloaded files
   bootstrap-table:
     integrity:
       css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
       js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
     url:
-      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
-      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+      css: "https://npm.elemecdn.com/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://npm.elemecdn.com/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
     version: "1.22.4"
   chartjs:
     integrity:
       js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
     url:
-      js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
+      js: "https://npm.elemecdn.com/chart.js@{{version}}/dist/chart.umd.min.js"
     version: "4.4.1"
   d3:
     integrity:
       js: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
     url:
-      js: "https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js"
+      js: "https://npm.elemecdn.com/d3@{{version}}/dist/d3.min.js"
     version: "7.8.5"
   diff2html:
     integrity:
       css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
       js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
     url:
-      css: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/css/diff2html.min.css"
-      js: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/js/diff2html-ui.min.js"
+      css: "https://npm.elemecdn.com/diff2html@{{version}}/bundles/css/diff2html.min.css"
+      js: "https://npm.elemecdn.com/diff2html@{{version}}/bundles/js/diff2html-ui.min.js"
     version: "3.4.47"
   echarts:
     integrity:
@@ -456,12 +456,12 @@ third_party_libraries:
         dark_theme: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
     url:
       js:
-        library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
-        dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
+        library: "https://npm.elemecdn.com/echarts@{{version}}/dist/echarts.min.js"
+        dark_theme: "https://npm.elemecdn.com/echarts@{{version}}/theme/dark-fresh-cut.js"
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.loli.net/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
@@ -469,14 +469,14 @@ third_party_libraries:
         dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
     url:
       css:
-        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
-        dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
+        light: "https://npm.elemecdn.com/highlight.js@{{version}}/styles/github.min.css"
+        dark: "https://npm.elemecdn.com/highlight.js@{{version}}/styles/github-dark.min.css"
     version: "11.9.0"
   imagesloaded:
     integrity:
       js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
     url:
-      js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
+      js: https://npm.elemecdn.com/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
     version: "5.0.0"
   img-comparison-slider:
     integrity:
@@ -484,15 +484,15 @@ third_party_libraries:
       js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
       map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
     url:
-      css: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
-      js: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
-      map: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
+      css: "https://npm.elemecdn.com/img-comparison-slider@{{version}}/dist/styles.min.css"
+      js: "https://npm.elemecdn.com/img-comparison-slider@{{version}}/dist/index.min.js"
+      map: "https://npm.elemecdn.com/img-comparison-slider@{{version}}/dist/index.js.map"
     version: "8.0.6"
   jquery:
     integrity:
       js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     url:
-      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+      js: "https://npm.elemecdn.com/jquery@{{version}}/dist/jquery.min.js"
     version: "3.6.0"
   leaflet:
     integrity:
@@ -502,18 +502,18 @@ third_party_libraries:
     local:
       images: "images/"
     url:
-      css: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.css"
-      images: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/images/"
-      js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
-      js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
+      css: "https://npm.elemecdn.com/leaflet@{{version}}/dist/leaflet.min.css"
+      images: "https://npm.elemecdn.com/leaflet@{{version}}/dist/images/"
+      js: "https://npm.elemecdn.com/leaflet@{{version}}/dist/leaflet.min.js"
+      js_map: "https://npm.elemecdn.com/leaflet@{{version}}/dist/leaflet.js.map"
     version: "1.9.4"
   lightbox2:
     integrity:
       css: "sha256-uypRbsAiJcFInM/ndyI/JHpzNe6DtUNXaWEUWEPfMGo="
       js: "sha256-A6jI5V9s1JznkWwsBaRK8kSeXLgIqQfxfnvdDOZEURY="
     url:
-      css: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/css/lightbox.min.css"
-      js: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
+      css: "https://npm.elemecdn.com/lightbox2@{{version}}/dist/css/lightbox.min.css"
+      js: "https://npm.elemecdn.com/lightbox2@{{version}}/dist/js/lightbox.min.js"
     version: "2.11.5"
   mathjax:
     integrity:
@@ -521,14 +521,14 @@ third_party_libraries:
     local:
       fonts: "output/chtml/fonts/woff-v2/"
     url:
-      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+      fonts: "https://npm.elemecdn.com/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
+      js: "https://npm.elemecdn.com/mathjax@{{version}}/es5/tex-mml-chtml.js"
     version: "3.2.2"
   masonry:
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
     url:
-      js: "https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
+      js: "https://npm.elemecdn.com/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
     version: "4.2.2"
   mdb:
     integrity:
@@ -537,41 +537,41 @@ third_party_libraries:
       js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
       js_map: "sha256-UPgyn4YNsT0khkBK5553QwhnlbTlU0aa+igyc6qP1bE="
     url:
-      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
-      css_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
-      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
-      js_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
+      css: "https://npm.elemecdn.com/mdbootstrap@{{version}}/css/mdb.min.css"
+      css_map: "https://npm.elemecdn.com/mdbootstrap@{{version}}/css/mdb.min.css.map"
+      js: "https://npm.elemecdn.com/mdbootstrap@{{version}}/js/mdb.min.js"
+      js_map: "https://npm.elemecdn.com/mdbootstrap@{{version}}/js/mdb.min.js.map"
     version: "4.20.0"
   medium_zoom:
     integrity:
       js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
     url:
-      js: "https://cdn.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js"
+      js: "https://npm.elemecdn.com/medium-zoom@{{version}}/dist/medium-zoom.min.js"
     version: "1.1.0"
   mermaid:
     integrity:
       js: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
     url:
-      js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
+      js: "https://npm.elemecdn.com/mermaid@{{version}}/dist/mermaid.min.js"
     version: "10.7.0"
   photoswipe:
     integrity:
       js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="
     url:
-      css: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.min.css"
-      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.esm.min.js"
+      css: "https://npm.elemecdn.com/photoswipe@{{version}}/dist/photoswipe.min.css"
+      js: "https://npm.elemecdn.com/photoswipe@{{version}}/dist/photoswipe.esm.min.js"
     version: "5.4.4"
   photoswipe-lightbox:
     integrity:
       js: "sha256-uCw4VgT5DMdwgtjhvU9e98nT2mLZXcw/8WkaTrDd3RI="
     url:
-      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
+      js: "https://npm.elemecdn.com/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
     version: "5.4.4"
   plotly:
     integrity:
       js: "sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q="
     url:
-      js: "https://cdn.jsdelivr.net/npm/plotly.js@{{version}}/dist/plotly.min.js"
+      js: "https://npm.elemecdn.com/plotly.js@{{version}}/dist/plotly.min.js"
     version: "3.0.1"
   polyfill:
     url:
@@ -582,15 +582,15 @@ third_party_libraries:
       css: "sha256-VwMV//xgBPDyRFVSOshhRhzJRDyBmIACniLPpeXNUdc="
       js: "sha256-aVkDxqyzrB+ExUsOY9PdyelkDhn/DfrjWu08aVpqNlo="
     url:
-      css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
-      js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
+      css: "https://npm.elemecdn.com/pseudocode@{{version}}/build/pseudocode.min.css"
+      js: "https://npm.elemecdn.com/pseudocode@{{version}}/build/pseudocode.min.js"
     version: "2.4.1"
   spotlight:
     integrity:
       css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
     url:
-      css: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/css/spotlight.min.css"
-      js: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
+      css: "https://npm.elemecdn.com/spotlight.js@{{version}}/dist/css/spotlight.min.css"
+      js: "https://npm.elemecdn.com/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
     version: "0.7.8"
   swiper:
     integrity:
