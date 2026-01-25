@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
     sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 
-# 安装系统依赖，包括编译 sassc 所需的库
+# 安装系统依赖
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
         build-essential \
@@ -21,9 +21,7 @@ RUN apt-get update -y && \
         python3-pip \
         zlib1g-dev \
         libffi-dev \
-        libyaml-dev \
-        libxml2-dev \
-        libxslt-dev && \
+        libyaml-dev && \
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
     pip --no-cache-dir install --upgrade nbconvert
 
@@ -42,10 +40,13 @@ COPY _plugins/jekyll-terser /srv/jekyll/_plugins/jekyll-terser
 
 # 配置国内镜像并安装
 RUN gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ && \
+    # 强制升级 RubyGems 到兼容 3.1.2 的最高版本
+    gem update --system 3.4.22 && \
     gem install bundler -v 2.4.22 && \
-    # 预装 json 修复 sass 编译报错
-    gem install json -v 2.7.2 && \
     bundle config set mirror.https://rubygems.org https://gems.ruby-china.com && \
+    # 关键：手动预装 sass-embedded 所需的依赖，防止编译时报错
+    gem install json -v 2.7.2 && \
+    gem install sass-embedded -v 1.97.3 && \
     bundle install --no-cache
 
 EXPOSE 4000
