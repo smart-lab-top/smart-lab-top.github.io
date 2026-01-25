@@ -55,8 +55,9 @@ start_jekyll() {
     fi
     
     if [ "${JEKYLL_ENV:-development}" = "production" ]; then
-        echo "Running in PRODUCTION mode (No Watch, No LiveReload)..."
-        bundle exec jekyll serve --port=4000 --host=0.0.0.0 --verbose --trace &
+        echo "Running in PRODUCTION mode (Foreground)..."
+        # Run in foreground so if it crashes, the container exits (and we can see logs)
+        exec bundle exec jekyll serve --port=4000 --host=0.0.0.0 --verbose --trace
     else
         echo "Running in DEVELOPMENT mode..."
         bundle exec jekyll serve --watch --port=4000 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
