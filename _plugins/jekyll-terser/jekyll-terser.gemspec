@@ -6,7 +6,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/RobertoJBeltran/jekyll-terser"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  # 改用纯 Ruby 方式列出文件，不再依赖 Git 命令
+  spec.files         = Dir.glob("{lib,exe}/**/*") + ["jekyll-terser.gemspec", "README.md", "LICENSE"]
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
