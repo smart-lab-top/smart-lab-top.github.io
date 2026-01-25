@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
     sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 
-# 安装系统依赖，特别是编译 sass-embedded 所需的库
+# 安装系统依赖
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
         build-essential \
@@ -34,16 +34,14 @@ ENV LANG=en_US.UTF-8 \
 
 WORKDIR /srv/jekyll
 
-# 复制 Gemfile（不带 lockfile，防止版本锁定冲突）
-COPY Gemfile /srv/jekyll/
+# 关键：先复制 Gemfile 和 本地插件目录，否则 bundle install 会报错
+COPY Gemfile* /srv/jekyll/
+COPY _plugins/jekyll-terser /srv/jekyll/_plugins/jekyll-terser
 
-# 关键：升级 RubyGems 和 Bundler 以修复 JSON::Fragment 报错
-RUN gem update --system && \
-    gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ && \
-    gem install bundler && \
+# 配置 RubyGems 国内镜像并安装
+RUN gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ && \
+    gem install bundler -v 2.4.22 && \
     bundle config set mirror.https://rubygems.org https://gems.ruby-china.com && \
-    # 配置 GitHub 代理以安装 jekyll-terser
-    git config --global url."https://ghproxy.net/https://github.com/".insteadOf "https://github.com/" && \
     bundle install --no-cache
 
 EXPOSE 4000
