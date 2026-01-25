@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list && \
     sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 
-# 安装系统依赖
+# 安装系统依赖，包括编译 sassc 所需的库
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
         build-essential \
@@ -21,7 +21,9 @@ RUN apt-get update -y && \
         python3-pip \
         zlib1g-dev \
         libffi-dev \
-        libyaml-dev && \
+        libyaml-dev \
+        libxml2-dev \
+        libxslt-dev && \
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
     pip --no-cache-dir install --upgrade nbconvert
 
@@ -34,13 +36,15 @@ ENV LANG=en_US.UTF-8 \
 
 WORKDIR /srv/jekyll
 
-# 关键：先复制 Gemfile 和 本地插件目录，否则 bundle install 会报错
-COPY Gemfile* /srv/jekyll/
+# 复制 Gemfile 和 本地插件
+COPY Gemfile /srv/jekyll/
 COPY _plugins/jekyll-terser /srv/jekyll/_plugins/jekyll-terser
 
-# 配置 RubyGems 国内镜像并安装
+# 配置国内镜像并安装
 RUN gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ && \
     gem install bundler -v 2.4.22 && \
+    # 预装 json 修复 sass 编译报错
+    gem install json -v 2.7.2 && \
     bundle config set mirror.https://rubygems.org https://gems.ruby-china.com && \
     bundle install --no-cache
 
