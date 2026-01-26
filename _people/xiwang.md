@@ -14,7 +14,14 @@ lab_period: "2021 - 2024"
 
 ## About Me
 
-I completed my master in the FSA Lab (SMART team) at Shanghai Ocean University in 2023. Currently, I am a laboratory assistant at the Shanghai Ocean University.
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/xiwang.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p>I completed my master in the FSA Lab (SMART team) at Shanghai Ocean University in 2023. Currently, I am a laboratory assistant at the Shanghai Ocean University.</p>
+    </div>
+</div>
 
 ## Research Interests
 
