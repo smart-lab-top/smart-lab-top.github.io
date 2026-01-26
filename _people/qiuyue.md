@@ -5,7 +5,7 @@ position: "master(2025)"
 description: "Former master student, now working as a research assistant at Shanghai Ocean University."
 img: assets/img/qiuyue.jpg
 importance: 1
-category: assitant
+category: assistant
 email: "2043497856@qq.com"
 research: "Passive acoustic monitoring, Underwater noise"
 lab_period: "2022 - 2025"

@@ -5,7 +5,7 @@ position: "Master (2028)"
 description: "Master's Candidate"
 img: assets/img/yutaotao.jpg
 importance: 1
-category: Current student
+category: master
 email: "ttyu3310@126.com"
 research: "Fisheries acoustics"
 lab_period: "2025 - present"

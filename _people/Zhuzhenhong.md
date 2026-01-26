@@ -1,26 +1,17 @@
-## layout: page 
-
-## name: "zhuzhenhong"
-
-## &nbsp;position: "PhD (2024)" 
-
-## description: "Former PhD student, now at Freshwater Fisheries Research Center, CAFS"
-
-## img: assets/img/zhuzhenhong.jpg 
-
-## importance: 1 
-
-## category: alumni 
-
-## email: "zhuzhenhong@163.com" 
-
-## research: "Freshwater fish resource assessment, fish acoustic scattering characteristics" 
-
-## lab\_period: "2021 - 2024" 
-
-## github: "" 
-
-## website: ""
+---
+layout: page
+name: "Zhuzhenhong"
+position: "PhD (2024)"
+description: "Former PhD student, now at Freshwater Fisheries Research Center, CAFS"
+img: assets/img/zhuzhenhong.jpg
+importance: 1
+category: alumni
+email: "zhuzhenhong@163.com"
+research: "Freshwater fish resource assessment, fish acoustic scattering characteristics"
+lab_period: "2021 - 2024"
+github: ""
+website: ""
+---
 
 ## About Me
 

@@ -1,1 +1,36 @@
----layout: pagename: "Nur Ainul Hidayat Kasim"position: "Master Student"description: "Research fisheries acoustics"img: assets/img/ainul.jpgimportance: 2category: masteremail: "nur998393@gmail.com"research: "Fisheries acoustics, data analysis"lab_period: "2024 - Present"---## About MeI am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on fisheries acoustics and underwater data analysis.## Research Interests- Fisheries acoustic survey techniques- Underwater data processing- Statistical analysis of acoustic data## Education- **MSc in Fisheries Acoustics**, Shanghai Ocean University (2024 - Present)- **BSc in Marine Science**, Hasanuddin University (2020 - 2024)## PublicationsComing soon...## Contact- **Email**:  "nur998393@gmail.com"- **Office**: Room 102, College of Marine Living Resource Sciences and Management
+---
+layout: page
+name: "Nur Ainul Hidayat Kasim"
+position: "Master Student"
+description: "Research fisheries acoustics"
+img: assets/img/ainul.jpg
+importance: 2
+category: master
+email: "nur998393@gmail.com"
+research: "Fisheries acoustics, data analysis"
+lab_period: "2024 - Present"
+---
+
+## About Me
+
+I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on fisheries acoustics and underwater data analysis.
+
+## Research Interests
+
+- Fisheries acoustic survey techniques
+- Underwater data processing
+- Statistical analysis of acoustic data
+
+## Education
+
+- **MSc in Fisheries Acoustics**, Shanghai Ocean University (2024 - Present)
+- **BSc in Marine Science**, Hasanuddin University (2020 - 2024)
+
+## Publications
+
+Coming soon...
+
+## Contact
+
+- **Email**:  nur998393@gmail.com
+- **Office**: Room 102, College of Marine Living Resource Sciences and Management
