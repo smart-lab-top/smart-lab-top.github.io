@@ -1,0 +1,44 @@
+---
+layout: page
+name: "xiwang"
+position: "master (2024)"
+description: "Former master student, now at Shanghai Ocean University"
+img: assets/img/xiwang.jpg
+importance: 1
+category: alumni
+email: "wxi@shou.edu.cn"
+research: "Acoustic sediment classification"
+lab_period: "2021 - 2024"
+
+---
+
+## About Me
+
+I completed my master in the FSA Lab (SMART team) at Shanghai Ocean University in 2023. Currently, I am a laboratory assistant at the Shanghai Ocean University.
+
+## Research Interests
+
+- Marine mammal bioacoustics
+- Passive acoustic monitoring
+- Underwater soundscape analysis
+
+## Education
+
+- **M.ag in Fisheries Development**, Shanghai Ocean University (2021 - 2024)
+- **B.E. in Automation **, Yancheng Institute of Technology (2017 - 2021)
+
+## Publications
+
+- 奚旺, et al.(2024)."一种基于无监督学习算法的鱼探仪底质回波分类." *中国科技信息*.
+
+## Contact
+
+- **Email**: wxi@shou.edu.cn
+- **Current Position**: Laboratory assistant at the Shanghai Ocean University
+
+## Lab Contributions
+
+During my time in SMART Lab (2021-2024), I contributed to:
+- Using echosounder data for sediment classification
+- Field surveys in Yangtze Estuary
+- Acoustic data analysis and modeling

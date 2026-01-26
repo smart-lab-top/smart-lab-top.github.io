@@ -1,0 +1,36 @@
+---
+layout: page
+name: "majungang"
+position: "Master Student"
+description: "Research assistant in fisheries acoustics"
+img: assets/img/majungang.jpg
+importance: 2
+category: master
+email: "18052277076@163.com"
+research: "Fisheries acoustics, data analysis"
+lab_period: "2022 - 2025"
+---
+
+## About Me
+
+I am a master student in the FSA Lab (SMART Lab) at Shanghai Ocean University, focusing on fisheries acoustics and underwater data analysis.
+
+## Research Interests
+
+- Fisheries acoustic survey techniques
+- Underwater data processing
+- echotrace recognition
+
+## Education
+
+- **MSc in Fisheries Acoustics**, Shanghai Ocean University (2022 - 2025)
+- **BSc in Electronics Department**,Binhai College, Nankai University (2018 - 2022)
+
+## Publications
+
+- Ma J ,Tong J ,Xue M , et al. "A lightweight model for echo trace detection in echograms based on improved YOLOv8". *Scientific reports*.
+
+## Contact
+
+- **Email**: 18052277076@163.com
+- **Office**: 101, 16th Floor, Yulan Garden, Longhu Lingshu, Pizhou, Jiangsu 
