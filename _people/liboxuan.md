@@ -8,7 +8,7 @@ importance: 1
 category: master
 email: "jnddlsp@126.com"
 research: "active acoustics, tunas monitoring"
-lab_period: "2023 - 2026"
+lab_period: "2023 - Present"
 github: "https://github.com/liboxuan"
 website: "https://liboxuan-research.com"
 ---

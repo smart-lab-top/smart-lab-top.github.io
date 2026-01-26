@@ -8,7 +8,7 @@ importance: 1
 category: master
 email: "2387907109@qq.com"
 research: "active acoustics,squid monitoring"
-lab_period: "2024 - 2027"
+lab_period: "2024 - Present"
 github: "https://github.com/Audreya519"
 website: "https://liuyanru-research.com"
 ---
