@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "qiuchuhan"
+name: "Chuhan Qiu (邱楚涵)"
 position: "Master (2024)"
 description: "Former Master Student"
 img: assets/img/qiuchuhan.jpg

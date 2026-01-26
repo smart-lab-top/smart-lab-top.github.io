@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "guomeiyuan"
+name: "Meiyuan Guo (郭美媛)"
 position: "Master Student"
 description: "master student, now at shanghai ocean university "
 img: assets/img/guomeiyuan.jpg

@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "Zhuzhenhong"
+name: "Zhenhong Zhu (朱振宏)"
 position: "PhD (2024)"
 description: "Former PhD student, now at Freshwater Fisheries Research Center, CAFS"
 img: assets/img/zhuzhenhong.jpg

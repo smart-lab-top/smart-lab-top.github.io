@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "wangweiqi"
+name: "Weiqi Wang (王炜祺)"
 position: "Master (2023)"
 description: "Former M.Ag. student, now at Nanjing Agricultural University"
 img: assets/img/wangweiqi.jpg

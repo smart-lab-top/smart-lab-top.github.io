@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "qiuyue"
+name: "Yue Qiu (邱悦)"
 position: "Research Assistant"
 description: "Former master student, now working as a research assistant at Shanghai Ocean University."
 img: assets/img/qiuyue.jpg

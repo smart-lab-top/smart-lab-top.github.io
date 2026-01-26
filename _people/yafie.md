@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "Muhammad Yafie Rachmat Rizky Hidayat"
+name: "Muhammad Yafie Rachmat Rizky Hidayat (孟雅飞)"
 position: "Master Student"
 description: "Master student in fisheries acoustics"
 img: assets/img/yafie.jpg

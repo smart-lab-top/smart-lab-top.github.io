@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "luwenfei"
+name: "Wenfei Lu (鹿文菲)"
 position: "master(2023)"
 description: "Former master student, now at First Institute of Oceanography"
 img: assets/img/luwenfei.jpg

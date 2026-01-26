@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "Nur Ainul Hidayat Kasim"
+name: "Nur Ainul Hidayat Kasim (柯希美)"
 position: "Master Student"
 description: "Research fisheries acoustics"
 img: assets/img/ainul.jpg

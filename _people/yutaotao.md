@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "yutaotao"
+name: "Taotao Yu (于涛涛)"
 position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/yutaotao.jpg

@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "majungang"
+name: "Jungang Ma (马浚刚)"
 position: "Master Student"
 description: "Research assistant in fisheries acoustics"
 img: assets/img/majungang.jpg

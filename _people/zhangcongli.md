@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "zhangcongli"
+name: "Congli Zhang (张聪俐)"
 position: "Master Student"
 description: "Research assistant in fisheries acoustics"
 img: assets/img/zhangcongli.jpg

@@ -1,6 +1,6 @@
 ---
 layout: page
-name: "fuhuihui"
+name: "Huihui Fu (符慧慧)"
 position: "Master Student"
 description: "Graduate student in fisheries acoustics"
 img: assets/img/fuhuihui.jpg
