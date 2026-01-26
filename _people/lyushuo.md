@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "Shuo Lyu （吕硕）"
-position: "Master (2022)"
+position: "Master (2025)"
 description: "Former Master student, now at Xiamen University"
 img: assets/img/lvshuo.jpg
 importance: 1

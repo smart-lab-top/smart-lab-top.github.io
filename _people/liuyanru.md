@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "Yanru Liu (刘妍茹)"
-position: "Master (2024)"
+position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/liuyanru.jpg
 importance: 1

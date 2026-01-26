@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "wangweiqi"
-position: "M.Ag. (2020-2023)"
+position: "Master (2023)"
 description: "Former M.Ag. student, now at Nanjing Agricultural University"
 img: assets/img/wangweiqi.jpg
 importance: 1

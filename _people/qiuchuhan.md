@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "qiuchuhan"
-position: "Master Student"
+position: "Master (2024)"
 description: "Former Master Student"
 img: assets/img/qiuchuhan.jpg
 importance: 1

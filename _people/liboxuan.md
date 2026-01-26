@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "Boxuan Li （李柏萱）"
-position: "Master (2023)"
+position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/liboxuan.jpg
 importance: 1

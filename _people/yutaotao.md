@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "yutaotao"
-position: "Master (2028)"
+position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/yutaotao.jpg
 importance: 1
