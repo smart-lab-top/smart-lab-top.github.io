@@ -15,7 +15,14 @@ website: ""
 
 ## About Me
 
-I completed my PhD in the FSA Lab (SMART team) at Shanghai Ocean University in 2024. Currently, I am a postdoctoral researcher at Freshwater Fisheries Research Center, CAFS.
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/zhuzhenhong.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p>I completed my PhD in the FSA Lab (SMART team) at Shanghai Ocean University in 2024. Currently, I am a postdoctoral researcher at Freshwater Fisheries Research Center, CAFS.</p>
+    </div>
+</div>
 
 ## Research Interests
 

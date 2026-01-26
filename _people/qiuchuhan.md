@@ -8,18 +8,27 @@ importance: 1
 category: alumni
 email: "q15836082195@163.com"
 research: "signal processing"
-lab_period: "2020 - 2024"
+lab_period: "2021 - 2024"
 ---
 
 ## About Me
-I completed my MSc in the FSA Lab (SMART team) at Shanghai Ocean University in 2024.
+
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/qiuchuhan.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p>I completed my MSc in the FSA Lab (SMART team) at Shanghai Ocean University in 2024.</p>
+    </div>
+</div>
+
 ## Research Interests
 
--Underwater soundscape analysis
+- Underwater soundscape analysis
 
 ## Education
 
-- **MSc in Fisheries Acoustics **, Shanghai Ocean University (2020 - 2024)
+- **MSc in Fisheries Acoustics**, Shanghai Ocean University (2021 - 2024)
 
 
 ## Publications
