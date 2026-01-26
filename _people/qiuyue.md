@@ -1,7 +1,7 @@
 ---
 layout: page
 name: "qiuyue"
-position: "master(2025)"
+position: "Research Assistant"
 description: "Former master student, now working as a research assistant at Shanghai Ocean University."
 img: assets/img/qiuyue.jpg
 importance: 1
