@@ -4,7 +4,7 @@ name: "Congli Zhang (张聪俐)"
 position: "Master Student"
 description: "Research assistant in fisheries acoustics"
 img: assets/img/zhangcongli.jpg
-importance: 2
+importance: 2024
 category: master
 email: "1971492784@qq.com"
 research: "passive acoustics,environmental DNA"

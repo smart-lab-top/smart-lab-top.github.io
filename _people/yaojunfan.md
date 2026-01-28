@@ -4,7 +4,7 @@ name: "Junfan Yao （姚俊凡）"
 position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/yaojunfan.jpg
-importance: 1
+importance: 2023
 category: master
 email: "yjf1156618837@gmail.com"
 research: "active acoustics, deep learning"

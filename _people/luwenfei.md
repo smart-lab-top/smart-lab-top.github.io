@@ -4,7 +4,7 @@ name: "Wenfei Lu (鹿文菲)"
 position: "master(2023)"
 description: "Former master student, now at First Institute of Oceanography"
 img: assets/img/luwenfei.jpg
-importance: 3
+importance: 2023
 category: alumni
 email: "1944695777@qq.com"
 research: "Passive acoustic monitoring, Underwater noise"

@@ -4,7 +4,7 @@ name: "Boxuan Li （李柏萱）"
 position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/liboxuan.jpg
-importance: 1
+importance: 2023
 category: master
 email: "jnddlsp@126.com"
 research: "active acoustics, tunas monitoring"

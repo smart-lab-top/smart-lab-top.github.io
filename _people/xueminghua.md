@@ -4,7 +4,7 @@ name: "Minghua Xue (薛铭华)"
 position: "PhD Student"
 description: "PhD student of fishery science, now at Shanghai Ocean University"
 img: assets/img/xueminghua.jpg
-importance: 1
+importance: 2022
 category: phd
 email: "mhxue01@gmail.com"
 research: "Fisheries acoustics, data analysis"

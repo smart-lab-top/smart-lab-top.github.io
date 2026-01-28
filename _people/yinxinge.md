@@ -4,7 +4,7 @@ name: "Xinge Yin (尹昕格)"
 position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/yinxinge.jpg
-importance: 2
+importance: 2024
 category: master
 email: "2205685907@qq.com"
 research: "Study of Fish Otoliths"

@@ -77,7 +77,7 @@ children:
 ## Lab Alumni
 
 <div class="row row-cols-1 row-cols-md-3">
-{% assign alumni = site.people | where: "category", "alumni" | sort: "importance" %}
+{% assign alumni = site.people | where: "category", "alumni" | sort: "importance" | reverse %}
 {% for person in alumni %}
   {% include people.liquid %}
 {% endfor %}

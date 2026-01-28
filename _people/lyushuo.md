@@ -4,7 +4,7 @@ name: "Shuo Lyu （吕硕）"
 position: "Master (2025)"
 description: "Former Master student, now at Xiamen University"
 img: assets/img/lvshuo.jpg
-importance: 1
+importance: 2025
 category: alumni
 email: "lyushuo517@163.com"
 research: "Marine bioacoustics, Fisheries acoustics, Environmental DNA"

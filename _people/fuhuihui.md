@@ -4,7 +4,7 @@ name: "Huihui Fu (符慧慧)"
 position: "Master Student"
 description: "Graduate student in fisheries acoustics"
 img: assets/img/fuhuihui.jpg
-importance: 1
+importance: 2023
 category: master
 email: "m230250864@st.shou.edu.cn"
 research: "Fisheries acoustics, Passive acoustics"

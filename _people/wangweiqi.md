@@ -4,7 +4,7 @@ name: "Weiqi Wang (王炜祺)"
 position: "Master (2023)"
 description: "Former M.Ag. student, now at Nanjing Agricultural University"
 img: assets/img/wangweiqi.jpg
-importance: 3
+importance: 2023
 category: alumni
 email: "1335711429@qq.com"
 research: "Fisheries acoustics, Pacific saury monitoring"

@@ -4,7 +4,7 @@ name: "Nur Ainul Hidayat Kasim (柯希美)"
 position: "Master Student"
 description: "Research fisheries acoustics"
 img: assets/img/ainul.jpg
-importance: 2
+importance: 2024
 category: master
 email: "nur998393@gmail.com"
 research: "Fisheries acoustics, data analysis"
