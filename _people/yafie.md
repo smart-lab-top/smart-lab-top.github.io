@@ -6,7 +6,7 @@ description: "Master student in fisheries acoustics"
 img: assets/img/yafie.jpg
 importance: 2
 category: master
-email: "myafierahmatrezkyh6399@gmail.com"
+email: "yafie_rahmat@yahoo.com"
 research: "Marine Passive Acoustic Fisheries"
 lab_period: "2023 - present"
 ---
@@ -46,5 +46,5 @@ lab_period: "2023 - present"
 
 ## Contact
 
-- **Email**: myafierahmatrezkyh6399@gmail.com
-- **Office**: Room 352, College of Marine Living Resource Sciences and Management
+
+- **Email**: yafie_rahmat@yahoo.com
