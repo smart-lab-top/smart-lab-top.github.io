@@ -18,7 +18,7 @@ lab_period: "2023 - Present"
         {% include figure.liquid loading="eager" path="assets/img/guomeiyuan.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on fish feeding ecology.</p>
+        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on fish feeding ecology. co-supervisor: Dr. Shaoqing Wang</p>
     </div>
 </div>
 

@@ -20,7 +20,7 @@ website: "https://liuyanru-research.com"
         {% include figure.liquid loading="eager" path="assets/img/liuyanru.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I will soon complet my Master's degree at the SMART Lab of Shanghai Ocean University in April 2027.</p>
+        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on multi-beam sonar detection for fishery resources and squid monitoring.</p>
     </div>
 </div>
 

@@ -20,7 +20,7 @@ website: "/"
         {% include figure.liquid loading="eager" path="assets/img/wangweiqi.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I completed my M.Ag. in the FSA_Lab (SMART Lab) at Shanghai Ocean University in 2023. Currently, I am a PHD student at the Nanjing Agricultural University.</p>
+        <p>I completed my M.Ag. in the FSA Lab (SMART team) at Shanghai Ocean University in 2023. Currently, I am a PHD student at the Nanjing Agricultural University.</p>
     </div>
 </div>
 
@@ -47,6 +47,6 @@ website: "/"
 
 ## Lab Contributions
 
-During my time in FSA_ACOUSTICS Lab (2020-2023), I contributed to:
+During my time in FSA Lab (SMART team) (2020-2023), I contributed to:
 - Development of automated pacific saury echogram detection algorithms
 - Acoustic data analysis and modeling

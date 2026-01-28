@@ -18,7 +18,7 @@ lab_period: "2022 - 2025"
         {% include figure.liquid loading="eager" path="assets/img/qiuyue.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I completed my master in the FSA Lab (SMART Lab) at Shanghai Ocean University in 2025. Currently, I am a research assistant at Shanghai Ocean University.</p>
+        <p>I completed my master in the FSA Lab (SMART team) at Shanghai Ocean University in 2025. Currently, I am a research assistant at Shanghai Ocean University.</p>
     </div>
 </div>
 
@@ -44,7 +44,7 @@ lab_period: "2022 - 2025"
 
 ## Lab Contributions
 
-During my time in FSA Lab (SMART Lab) (2022-2025), I contributed to:
+During my time in FSA Lab (SMART team) (2022-2025), I contributed to:
 - Field surveys in Yangtze Estuary
 - The impact of underwater noise on the Yangtze Finless Porpoises
 - Analyze the tidal changes in the underwater soundscape of the Yangtze River mouth.

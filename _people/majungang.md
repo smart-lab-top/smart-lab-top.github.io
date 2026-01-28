@@ -18,7 +18,7 @@ lab_period: "2022 - 2025"
         {% include figure.liquid loading="eager" path="assets/img/majungang.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a master student in the FSA Lab (SMART Lab) at Shanghai Ocean University, focusing on fisheries acoustics and underwater data analysis.</p>
+        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on fisheries acoustics and underwater data analysis.</p>
     </div>
 </div>
 
@@ -40,4 +40,3 @@ lab_period: "2022 - 2025"
 ## Contact
 
 - **Email**: 18052277076@163.com
-- **Office**: 101, 16th Floor, Yulan Garden, Longhu Lingshu, Pizhou, Jiangsu 

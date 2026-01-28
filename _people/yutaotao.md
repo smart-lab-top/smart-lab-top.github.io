@@ -19,7 +19,7 @@ github: "https://github.com/yutaotao9"
         {% include figure.liquid loading="eager" path="assets/img/yutaotao.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a master student in the SMART Lab at Shanghai Ocean University.</p>
+        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University.</p>
     </div>
 </div>
 
@@ -37,4 +37,4 @@ github: "https://github.com/yutaotao9"
 
 ## Contact
 
-- **Email**:ttyu3310@126.com
+- **Email**: ttyu3310@126.com

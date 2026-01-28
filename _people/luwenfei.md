@@ -20,7 +20,7 @@ website: "https://wangwu-research.com"
         {% include figure.liquid loading="eager" path="assets/img/luwenfei.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I completed my master in the SMART Lab at Shanghai Ocean University in 2023. Currently, I am a researcher assistant at the First Institute of Oceanography.</p>
+        <p>I completed my master in the FSA Lab (SMART team) at Shanghai Ocean University in 2023. Currently, I am a research assistant at the First Institute of Oceanography.</p>
     </div>
 </div>
 
@@ -43,7 +43,7 @@ website: "https://wangwu-research.com"
 ## Contact
 
 - **Email**: 1944695777@qq.com
-- **Current Position**: Researcher Assistant at the First Institute of Oceanography
+- **Current Position**: Research Assistant at the First Institute of Oceanography
 
 ## Lab Contributions
 

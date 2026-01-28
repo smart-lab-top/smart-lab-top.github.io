@@ -33,9 +33,8 @@ lab_period: "2021 - 2024"
 
 ## Publications
 
-Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis
+- Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis
 
 ## Contact
 
 - **Email**: q15836082195@163.com
-- **Office**:  Coming soon...

@@ -46,5 +46,5 @@ lab_period: "2023 - present"
 
 ## Contact
 
-- **Email**: lisi@shou.edu.cn
-- **Office**: Room 102, College of Marine Living Resource Sciences and Management
+- **Email**: myafierahmatrezkyh6399@gmail.com
+- **Office**: Room 352, College of Marine Living Resource Sciences and Management
