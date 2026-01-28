@@ -4,7 +4,7 @@ name: "Muhammad Yafie Rachmat Rizky Hidayat (孟雅飞)"
 position: "Master Student"
 description: "Master student in fisheries acoustics"
 img: assets/img/yafie.jpg
-importance: 2
+importance: 1
 category: master
 email: "yafie_rahmat@yahoo.com"
 research: "Marine Passive Acoustic Fisheries"

@@ -4,7 +4,7 @@ name: "Jungang Ma (马浚刚)"
 position: "Master (2025)"
 description: "Research assistant in fisheries acoustics"
 img: assets/img/majungang.jpg
-importance: 2
+importance: 1
 category: alumni
 email: "18052277076@163.com"
 research: "Fisheries acoustics, data analysis"

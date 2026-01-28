@@ -4,7 +4,7 @@ name: "Wang Xi (奚旺)"
 position: "master (2024)"
 description: "Former master student, now at Shanghai Ocean University"
 img: assets/img/xiwang.jpg
-importance: 1
+importance: 2
 category: alumni
 email: "wxi@shou.edu.cn"
 research: "Acoustic sediment classification"

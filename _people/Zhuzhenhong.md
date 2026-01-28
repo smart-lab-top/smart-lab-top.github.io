@@ -4,7 +4,7 @@ name: "Zhenhong Zhu (朱振宏)"
 position: "PhD (2024)"
 description: "Former PhD student, now at Freshwater Fisheries Research Center, CAFS"
 img: assets/img/zhuzhenhong.jpg
-importance: 1
+importance: 2
 category: alumni
 email: "zhuzhenhong@163.com"
 research: "Freshwater fish resource assessment, fish acoustic scattering characteristics"

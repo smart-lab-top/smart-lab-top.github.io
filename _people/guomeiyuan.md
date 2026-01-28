@@ -4,7 +4,7 @@ name: "Meiyuan Guo (郭美媛)"
 position: "Master Student"
 description: "master student, now at shanghai ocean university "
 img: assets/img/guomeiyuan.jpg
-importance: 2
+importance: 1
 category: master
 email: "gmy95210522@163.com"
 research: " fish feeding ecology, fatty acid  analysis and stable isotope analysis"

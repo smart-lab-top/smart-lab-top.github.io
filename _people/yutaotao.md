@@ -4,7 +4,7 @@ name: "Taotao Yu (于涛涛)"
 position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/yutaotao.jpg
-importance: 1
+importance: 3
 category: master
 email: "ttyu3310@126.com"
 research: "Fisheries acoustics"

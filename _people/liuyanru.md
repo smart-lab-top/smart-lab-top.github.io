@@ -4,7 +4,7 @@ name: "Yanru Liu (刘妍茹)"
 position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/liuyanru.jpg
-importance: 1
+importance: 2
 category: master
 email: "2387907109@qq.com"
 research: "active acoustics,squid monitoring"

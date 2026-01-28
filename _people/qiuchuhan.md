@@ -4,7 +4,7 @@ name: "Chuhan Qiu (邱楚涵)"
 position: "Master (2024)"
 description: "Former Master Student"
 img: assets/img/qiuchuhan.jpg
-importance: 1
+importance: 2
 category: alumni
 email: "q15836082195@163.com"
 research: "signal processing"

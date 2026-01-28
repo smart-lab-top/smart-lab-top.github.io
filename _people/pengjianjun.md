@@ -4,7 +4,7 @@ name: "Jianjun Peng (彭建钧)"
 position: "Master Student"
 description: "master student, now at shanghai ocean university "
 img: assets/img/pengjianjun.jpg
-importance: 2
+importance: 1
 category: master
 email: "m230200670@st.shou.edu.cn"
 research: " Analysis of microplastics in marine organisms"
