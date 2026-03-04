@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "GAI-YOLOv8: Precision-Oriented Fish Detection Algorithm for Sonar-Based Conservation Monitoring"
-date: 2026-03-03 15:45:00
+date: 2026-03-02 15:45:00
 inline: false
 related_posts: false
 ---
-
 On March 2, 2026, the **SMART Lab** team from Shanghai Ocean University announced a breakthrough in *Fisheries Research* (Volume 296, Article 107701). The team introduced GAI-YOLOv8, a precision-oriented detection model specifically engineered for identifying fish targets in sonar images, addressing critical needs in monitoring the Critically Endangered Chinese sturgeon (Acipenser sinensis).
 
 ### Addressing Conservation Challenges

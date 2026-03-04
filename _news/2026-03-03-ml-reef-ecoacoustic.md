@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "SMART Lab Advances Coral Reef Monitoring with Machine Learning-Enhanced Ecoacoustic Indices"
-date: 2026-03-03 14:30:00
+date: 2026-02-26 14:30:00
 inline: false
 related_posts: false
 ---
-
 On February 25, 2026, the **SMART Lab** team from Shanghai Ocean University published groundbreaking research in *Regional Studies in Marine Science* (Volume 96, Article 104882). This study demonstrates how machine learning algorithms significantly improve coral reef biodiversity monitoring in acoustically complex, noise-impacted marine environments.
 
 ### The Challenge of Monitoring in Noisy Soundscapes
