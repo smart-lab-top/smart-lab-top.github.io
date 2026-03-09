@@ -62,11 +62,15 @@ def get_scholar_citations() -> None:
 
     citation_data = {"metadata": {"last_updated": today}, "papers": {}}
 
-    scholarly.set_timeout(15)
+    scholarly.set_timeout(30)
     scholarly.set_retries(3)
     try:
+        print("📡 Connecting to Google Scholar...")
         author = scholarly.search_author_id(SCHOLAR_USER_ID)
-        author_data = scholarly.fill(author)
+        print(f"👤 Author found: {author.get('name')}. Fetching publication list...")
+        # Only fetch the publications section to save time and reduce risk of blocks
+        author_data = scholarly.fill(author, sections=['publications'])
+        print(f"📊 Found {len(author_data.get('publications', []))} publications. Starting citation sync...")
     except Exception as e:
         print(
             f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}. Please check your internet connection and Scholar user ID."
@@ -83,8 +87,14 @@ def get_scholar_citations() -> None:
         print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
         sys.exit(1)
 
+    import time
+    import random
+
     for pub in author_data["publications"]:
         try:
+            # Add a random delay between 1 to 3 seconds to avoid rate limiting
+            time.sleep(random.uniform(1.0, 3.0))
+            
             pub_id = pub.get("pub_id") or pub.get("author_pub_id")
             if not pub_id:
                 print(
