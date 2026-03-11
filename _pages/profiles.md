@@ -72,6 +72,14 @@ children:
 {% endfor %}
 </div>
 
+### Undergraduate Students
+<div class="row row-cols-1 row-cols-md-3">
+{% assign undergraduate_students = site.people | where: "category", "undergraduate" | sort: "importance" %}
+{% for person in undergraduate_students %}
+  {% include people.liquid %}
+{% endfor %}
+</div>
+
 ---
 
 ## Lab Alumni
