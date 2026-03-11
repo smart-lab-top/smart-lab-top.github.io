@@ -18,7 +18,7 @@ lab_period: "2025 - Present"
         {% include figure.liquid loading="eager" path="assets/img/zhaoziyi.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am an undergraduate student in the SMART Lab at Shanghai Ocean University. </p>
+        <p>I am an undergraduate student, enrolled in 2024, majoring in Marine Resources and Environment at Shanghai Ocean University. I love exploring the world through travel, immersing myself in music, and the strategic fun of board games. In academic aspect, as a team member, I have participated in several initiatives, including the National Innovation Program, the "Trickle Action," the Finless Porpoise social practice, and the Ecological Restoration Competition. Furthermore, as a team leader, I spearheaded an energy conservation and emission reduction project and competed in the China International College Students' Innovation Competition.</p>
     </div>
 </div>
 
