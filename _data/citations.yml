@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-08'
+  last_updated: '2026-04-02'
 papers:
   IEfV3ZYAAAAJ:-f6ydRqryjwC:
     citations: 2
@@ -10,15 +10,19 @@ papers:
     title: 'Towards a comprehensive assessment of ichthyofaunal diversity in the Yangtze River estuary: Leveraging environmental DNA technology and bottom trawl surveys'
     year: '2024'
   IEfV3ZYAAAAJ:2osOgNQ5qMEC:
-    citations: 6
+    citations: 8
     title: A lightweight model for echo trace detection in echograms based on improved YOLOv8
     year: '2024'
   IEfV3ZYAAAAJ:4DMP91E08xMC:
     citations: 0
     title: "\u57FA\u4E8E\u58F0\u5B66\u6307\u6570\u7684 2021 \u5E74\u590F\u5B63\u897F\u5317\u592A\u5E73\u6D0B\u9C90\u9C7C\u6816\u606F\u5730\u5EFA\u6A21"
     year: '2024'
+  IEfV3ZYAAAAJ:4JMBOYKVnBMC:
+    citations: 0
+    title: Machine Learning Enhanced Ecoacoustic Indices for Coral Reef Species Richness Prediction in Noise-Impacted Soundscapes
+    year: '2026'
   IEfV3ZYAAAAJ:4TOpqqG69KYC:
-    citations: 3
+    citations: 2
     title: "\u957F\u6C5F\u53E3\u4E2D\u534E\u9C9F\u4FDD\u62A4\u533A\u6D77\u6D0B\u73AF\u5883\u76D1\u6D4B\u6D6E\u6807\u7AD9\u70B9\u7684\u4F18\u5316\u8BBE\u8BA1"
     year: '2021'
   IEfV3ZYAAAAJ:5nxA0vEk-isC:
@@ -26,7 +30,7 @@ papers:
     title: Impacts of Morphological Characteristics on Target Strength of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean
     year: '2022'
   IEfV3ZYAAAAJ:7PzlFSSx8tAC:
-    citations: 7
+    citations: 8
     title: "\u91C7\u7528\u58F0\u5B66\u65B9\u6CD5\u7814\u7A76 2016 \u5E74\u79CB\u5B63\u5E03\u5170\u65AF\u83F2\u5C14\u5FB7\u6D77\u5CE1\u5357\u6781\u78F7\u867E\u7FA4\u663C\u591C\u5782\u76F4\u79FB\u52A8\u7279\u5F81\u53CA\u5176\u5F71\u54CD\u56E0\u7D20"
     year: '2018'
   IEfV3ZYAAAAJ:8k81kl-MbHgC:
@@ -39,18 +43,18 @@ papers:
     year: '2017'
   IEfV3ZYAAAAJ:9yKSN-GCB0IC:
     citations: 1
-    title: 'Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis.'
+    title: 'Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis'
     year: '2024'
   IEfV3ZYAAAAJ:HDshCWvjkbEC:
-    citations: 45
-    title: 'Worldwide Soundscapes: a synthesis of passive acoustic monitoring across realms'
+    citations: 54
+    title: 'Worldwide soundscapes: a synthesis of passive acoustic monitoring across realms'
     year: '2025'
   IEfV3ZYAAAAJ:IWHjjKOFINEC:
     citations: 2
     title: "\u57FA\u4E8E\u58F0\u5B66\u6620\u50CF\u7684\u5357\u5965\u514B\u5C3C\u7FA4\u5C9B\u6D77\u57DF\u5357\u6781\u78F7\u867E\u96C6\u7FA4\u7279\u5F81"
     year: '2018'
   IEfV3ZYAAAAJ:IjCSPb-OGe4C:
-    citations: 9
+    citations: 10
     title: Reimagining habitat suitability modeling for Pacific saury (Cololabis saira) in the Northwest Pacific Ocean through acoustic data analysis from fishing vessels
     year: '2025'
   IEfV3ZYAAAAJ:KlAtU1dfN6UC:
@@ -70,7 +74,7 @@ papers:
     title: "Diel vertical migration of Antarctic krill (Euphausia superba) swarm in the Bransfield Strait during austral autumn 2016 inferred from acoustic data and its relations to \u2026"
     year: '2018'
   IEfV3ZYAAAAJ:QIV2ME_5wuYC:
-    citations: 4
+    citations: 5
     title: "\u957F\u6C5F\u53E3\u53CA\u90BB\u8FD1\u6C34\u57DF\u6E14\u4E1A\u8D44\u6E90\u76D1\u6D4B\u73B0\u72B6\u5206\u6790"
     year: '2021'
   IEfV3ZYAAAAJ:RHpTSmoSYBkC:
@@ -102,7 +106,7 @@ papers:
     title: Influence of Spatial Scale Selection of Environmental Factors on the Prediction of Distribution of Coilia nasus in Changjiang River Estuary
     year: '2021'
   IEfV3ZYAAAAJ:W7OEmFMy1HYC:
-    citations: 15
+    citations: 16
     title: A survey of marine coastal litters around zhoushan island, China and their impacts
     year: '2021'
   IEfV3ZYAAAAJ:WF5omc3nYNoC:
@@ -114,7 +118,7 @@ papers:
     title: "\u5357\u6781\u78F7\u867E\u8D44\u6E90\u91CF\u8BA1\u7B97\u65B9\u6CD5\u7684\u7814\u7A76\u7EFC\u8FF0"
     year: '2016'
   IEfV3ZYAAAAJ:Y0pCki6q_DkC:
-    citations: 2
+    citations: 1
     title: Influence of Spatial Scale Selection of Environmental Factors on the Prediction of Distribution of Coilia nasus in Changjiang River Estuary. Fishes 2021, 6, 48
     year: '2021'
   IEfV3ZYAAAAJ:YOwf2qJgpHMC:
@@ -154,7 +158,7 @@ papers:
     title: A study on development and application of a
     year: '2014'
   IEfV3ZYAAAAJ:dhFuZR0502QC:
-    citations: 9
+    citations: 7
     title: "\u57FA\u4E8E\u5355\u6444\u50CF\u673A\u89C6\u9891\u7684\u9C7C\u7C7B\u4E09\u7EF4\u81EA\u52A8\u8DDF\u8E2A\u65B9\u6CD5\u521D\u63A2"
     year: '2012'
   IEfV3ZYAAAAJ:e5wmG9Sq2KIC:
@@ -162,8 +166,8 @@ papers:
     title: 'Methods for biomass estimation of Antarctic krill (Euphausia superba): a review'
     year: '2018'
   IEfV3ZYAAAAJ:eQOLeE2rZwMC:
-    citations: 2
-    title: 'Refining ecoacoustic indices in aquatic and terrestrial ecosystems: A comprehensive review and bibliometric analysis'
+    citations: 3
+    title: 'Refining ecoacoustic indices in aquatic and terrestrial ecosystems: a comprehensive review and bibliometric analysis'
     year: '2024'
   IEfV3ZYAAAAJ:hC7cP41nSMkC:
     citations: 2
@@ -177,6 +181,10 @@ papers:
     citations: 5
     title: 'Investigations on Target Strength Estimation Methods: A Case Study of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean'
     year: '2024'
+  IEfV3ZYAAAAJ:j3f4tGmQtD8C:
+    citations: 0
+    title: 'GAI-YOLOv8: A precision-oriented detection algorithm for identifying fish targets in sonar images'
+    year: '2026'
   IEfV3ZYAAAAJ:mB3voiENLucC:
     citations: 7
     title: "\u5357\u6781\u78F7\u867E\u751F\u7269\u91CF\u4F30\u7B97\u65B9\u6CD5"
@@ -190,7 +198,7 @@ papers:
     title: "\u5317\u592A\u5E73\u6D0B\u6E14\u4E1A\u8D44\u6E90\u79CD\u7C7B\u76EE\u6807\u5F3A\u5EA6\u7814\u7A76\u8FDB\u5C55"
     year: '2021'
   IEfV3ZYAAAAJ:qjMakFHDy7sC:
-    citations: 11
+    citations: 10
     title: A client/server architecture remote fish finder system for a set net fishery
     year: '2014'
   IEfV3ZYAAAAJ:qxL8FJ1GzNcC:
@@ -214,6 +222,6 @@ papers:
     title: "Broadband characteristics of zooplankton sound scattering layer in the kuroshio\u2013oyashio confluence region of the Northwest pacific ocean in summer of 2019"
     year: '2021'
   IEfV3ZYAAAAJ:zYLM7Y9cAGgC:
-    citations: 62
+    citations: 63
     title: A method to estimate the abundance of fish based on dual-frequency identification sonar (DIDSON) imaging
     year: '2017'

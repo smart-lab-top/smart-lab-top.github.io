@@ -1,10 +1,17 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import os
 import sys
 import yaml
 from datetime import datetime
 from scholarly import scholarly
+
+# Set UTF-8 encoding for stdout on Windows
+if sys.platform == 'win32':
+    import codecs
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer, 'strict')
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer, 'strict')
 
 
 def load_scholar_user_id() -> str:
