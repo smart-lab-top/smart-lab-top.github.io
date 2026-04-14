@@ -11,6 +11,15 @@ On April 14, 2026, the **SMART Lab** team from Shanghai Ocean University publish
 
 The SSL is a ubiquitous acoustic phenomenon caused by dense aggregations of zooplankton and small pelagic fish that reflect sound from echosounders. A primary feature of these layers is **Diel Vertical Migration (DVM)**—often called the largest daily migration of animals on Earth. These organisms typically ascend to the surface at night to feed and descend to deeper waters during the day to avoid predators.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/SSL.png" title="The DVM behavior of SSL" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The Diel Vertical Migration (DVM) behavior of Sound Scattering Layer organisms.
+</div>
+
 "The SSL plays a crucial role in vertical energy transfer and carbon flux," the researchers note. Recent estimates suggest that the **Deep Scattering Layer (DSL)**, a subset of the SSL, may contain up to **90% of the global fish biomass**—nearly 100 times the current annual marine capture.
 
 ### Regional Findings and Variations
