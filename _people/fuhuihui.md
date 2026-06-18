@@ -5,10 +5,10 @@ position: "Master Student"
 description: "Graduate student in fisheries acoustics"
 img: assets/img/fuhuihui.jpg
 importance: 2023
-category: master
+category: alumni
 email: "m230250864@st.shou.edu.cn"
 research: "Fisheries acoustics, Passive acoustics"
-lab_period: "2023 - present"
+lab_period: "2023 - 2026"
 ---
 
 ## About Me

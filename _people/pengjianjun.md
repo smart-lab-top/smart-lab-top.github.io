@@ -5,10 +5,10 @@ position: "Master Student"
 description: "master student, now at shanghai ocean university "
 img: assets/img/pengjianjun.jpg
 importance: 2023
-category: master
+category: alumni
 email: "m230200670@st.shou.edu.cn"
 research: " Analysis of microplastics in marine organisms"
-lab_period: "2023 - Present"
+lab_period: "2023 - 2026"
 ---
 
 ## About Me

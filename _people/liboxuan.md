@@ -5,10 +5,10 @@ position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/liboxuan.jpg
 importance: 2023
-category: master
+category: alumni
 email: "jnddlsp@126.com"
 research: "active acoustics, tunas monitoring"
-lab_period: "2023 - Present"
+lab_period: "2023 - 2026"
 github: "https://github.com/liboxuan"
 website: "https://liboxuan-research.com"
 ---

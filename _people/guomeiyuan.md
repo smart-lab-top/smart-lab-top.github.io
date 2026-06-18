@@ -5,10 +5,10 @@ position: "Master Student"
 description: "master student, now at shanghai ocean university "
 img: assets/img/guomeiyuan.jpg
 importance: 2023
-category: master
+category: alumni
 email: "gmy95210522@163.com"
 research: " fish feeding ecology, fatty acid  analysis and stable isotope analysis"
-lab_period: "2023 - Present"
+lab_period: "2023 - 2026"
 ---
 
 ## About Me

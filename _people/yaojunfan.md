@@ -5,10 +5,10 @@ position: "Master Student"
 description: "Master's Candidate"
 img: assets/img/yaojunfan.jpg
 importance: 2023
-category: master
+category: alumni
 email: "yjf1156618837@gmail.com"
 research: "active acoustics, deep learning"
-lab_period: "2023 - Present"
+lab_period: "2023 - 2026"
 github: "https://github.com/SimonYJF034 "
 website: "https://junfanyao-research.com"
 ---

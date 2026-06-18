@@ -5,10 +5,10 @@ position: "Master Student"
 description: "Master student in fisheries acoustics"
 img: assets/img/yafie.jpg
 importance: 2023
-category: master
+category: alumni
 email: "yafie_rahmat@yahoo.com"
 research: "Marine Passive Acoustic Fisheries"
-lab_period: "2023 - present"
+lab_period: "2023 - 2026"
 ---
 
 ## About Me
