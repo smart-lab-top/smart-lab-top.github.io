@@ -1,8 +1,8 @@
 ---
 layout: page
 name: "Muhammad Yafie Rachmat Rizky Hidayat (孟雅飞)"
-position: "Master Student"
-description: "Master student in fisheries acoustics"
+position: "Researcher"
+description: "former master student, now at Hasanuddin University"
 img: assets/img/yafie.jpg
 importance: 2023
 category: alumni
@@ -18,7 +18,7 @@ lab_period: "2023 - 2026"
         {% include figure.liquid loading="eager" path="assets/img/yafie.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on marine passive acoustic fisheries and underwater data analysis.</p>
+        <p>I was a master student in the FSA Lab (SMART team) at Shanghai Ocean University. I have now returned to the sea and am conducting marine research at Hasanuddin University in Indonesia, focusing on marine passive acoustic fisheries and underwater data analysis.</p>
     </div>
 </div>
 
@@ -31,7 +31,7 @@ lab_period: "2023 - 2026"
 
 ## Education
 
-- **MSc in Fisheries Acoustics**, Shanghai Ocean University (2023 - present)
+- **MSc in Fisheries Acoustics**, Shanghai Ocean University (2023 - 2026)
 - **BSc in Marine Science**, Hasanuddin University (2017 - 2022)
 
 ## Publications

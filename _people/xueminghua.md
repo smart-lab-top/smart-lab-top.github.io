@@ -1,14 +1,14 @@
 ---
 layout: page
 name: "Minghua Xue (薛铭华)"
-position: "PhD Student"
-description: "PhD student of fishery science, now at Shanghai Ocean University"
+position: "Researcher"
+description: "former PhD and Master student, now at Institute of Hydroecology, MWR & CAS"
 img: assets/img/xueminghua.jpg
 importance: 2022
-category: phd
+category: alumni
 email: "mhxue01@gmail.com"
 research: "Fisheries acoustics, data analysis"
-lab_period: "2019 - Present"
+lab_period: "2019 - 2026"
 ---
 
 ## About Me
@@ -18,7 +18,7 @@ lab_period: "2019 - Present"
         {% include figure.liquid loading="eager" path="assets/img/xueminghua.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a PhD student in the FSA Lab (SMART team) at Shanghai Ocean University. My research focuses on fisheries acoustics and underwater data analysis, with particular emphasis on acoustic surveys of inland and oceanic fishery resources, diel vertical migration of sound scattering layers, relationships between fish distributions and environmental conditions, and the experimental measurement and model-based estimation of fish target strength.</p>
+        <p>I obtained my Master's and PhD degrees from the FSA Lab (SMART team) at Shanghai Ocean University between 2019 and 2026. I am currently with the Institute of Hydroecology, Ministry of Water Resources & Chinese Academy of Sciences. My research focuses on fisheries acoustics and underwater data analysis, with particular emphasis on acoustic surveys of inland and oceanic fishery resources, diel vertical migration of sound scattering layers, relationships between fish distributions and environmental conditions, and the experimental measurement and model-based estimation of fish target strength.</p>
     </div>
 </div>
 
@@ -32,7 +32,7 @@ lab_period: "2019 - Present"
 
 ## Education
 
-- **PhD in Fisheries Acoustics**, Shanghai Ocean University (2022 - Present)
+- **PhD in Fisheries Acoustics**, Shanghai Ocean University (2022 - 2026)
 - **Visiting PhD student in Fisheries Acoustics**, Hokkaido University (2023 - 2024)
 - **MSc in Fisheries Acoustics**, Shanghai Ocean University (2019 - 2022)
 - **BSc in Marine Science**, Shanghai Ocean University (2014 - 2018)

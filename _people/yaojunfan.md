@@ -1,8 +1,8 @@
 ---
 layout: page
 name: "Junfan Yao （姚俊凡）"
-position: "Master Student"
-description: "Master's Candidate"
+position: "Alumnus"
+description: "former master student"
 img: assets/img/yaojunfan.jpg
 importance: 2023
 category: alumni
@@ -20,7 +20,7 @@ website: "https://junfanyao-research.com"
         {% include figure.liquid loading="eager" path="assets/img/yaojunfan.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on active acoustics and deep learning.</p>
+        <p>I was a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on active acoustics and deep learning.</p>
     </div>
 </div>
 

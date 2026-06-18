@@ -1,8 +1,8 @@
 ---
 layout: page
 name: "Meiyuan Guo (郭美媛)"
-position: "Master Student"
-description: "master student, now at shanghai ocean university "
+position: "Lab Technician"
+description: "former master student, now working as a lab technician in the FSA Lab"
 img: assets/img/guomeiyuan.jpg
 importance: 2023
 category: alumni
@@ -18,7 +18,7 @@ lab_period: "2023 - 2026"
         {% include figure.liquid loading="eager" path="assets/img/guomeiyuan.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on fish feeding ecology. co-supervisor: Dr. Shaoqing Wang</p>
+        <p>I was a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on fish feeding ecology. I have now stayed at the university to serve as a lab technician in the FSA Lab. co-supervisor: Dr. Shaoqing Wang</p>
     </div>
 </div>
 
@@ -30,7 +30,7 @@ lab_period: "2023 - 2026"
 
 ## Education
 
-- **MSc in Marine Science**, Shanghai Ocean University (2023 - Present)
+- **MSc in Marine Science**, Shanghai Ocean University (2023 - 2026)
 - **BSc in Marine Resources Development Technology**, Hebei Normal University Of Science & Technology(2018 - 2022)
 
 ## Publications

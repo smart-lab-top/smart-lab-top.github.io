@@ -1,8 +1,8 @@
 ---
 layout: page
 name: "Boxuan Li （李柏萱）"
-position: "Master Student"
-description: "Master's Candidate"
+position: "Engineer"
+description: "former master student, now working on marine equipment testing in Qingdao"
 img: assets/img/liboxuan.jpg
 importance: 2023
 category: alumni
@@ -20,7 +20,7 @@ website: "https://liboxuan-research.com"
         {% include figure.liquid loading="eager" path="assets/img/liboxuan.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I am a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on active acoustics and tuna monitoring.</p>
+        <p>I was a master student in the FSA Lab (SMART team) at Shanghai Ocean University, focusing on active acoustics and tuna monitoring. I am currently working on marine equipment testing in Qingdao.</p>
     </div>
 </div>
 
