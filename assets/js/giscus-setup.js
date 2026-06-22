@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "smart-lab-top/smart-lab.top.github.io",
+    "data-repo": "smart-lab-top/smart-lab-top.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
