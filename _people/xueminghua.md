@@ -1,10 +1,10 @@
 ---
 layout: page
 name: "Minghua Xue (薛铭华)"
-position: "Researcher"
+position: "PhD (2026)"
 description: "former PhD and Master student, now at Institute of Hydroecology, MWR & CAS"
 img: assets/img/xueminghua.jpg
-importance: 2022
+importance: 2026
 category: alumni
 email: "mhxue01@gmail.com"
 research: "Fisheries acoustics, data analysis"

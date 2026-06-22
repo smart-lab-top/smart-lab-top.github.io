@@ -1,10 +1,10 @@
 ---
 layout: page
 name: "Meiyuan Guo (郭美媛)"
-position: "Lab Technician"
+position: "Master (2026)"
 description: "former master student, now working as a lab technician in the FSA Lab"
 img: assets/img/guomeiyuan.jpg
-importance: 2023
+importance: 2026
 category: alumni
 email: "gmy95210522@163.com"
 research: " fish feeding ecology, fatty acid  analysis and stable isotope analysis"

@@ -1,10 +1,10 @@
 ---
 layout: page
 name: "Huihui Fu (符慧慧)"
-position: "Alumnus"
+position: "Master (2026)"
 description: "former master student"
 img: assets/img/fuhuihui.jpg
-importance: 2023
+importance: 2026
 category: alumni
 email: "m230250864@st.shou.edu.cn"
 research: "Fisheries acoustics, Passive acoustics"

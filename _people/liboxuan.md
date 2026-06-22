@@ -1,10 +1,10 @@
 ---
 layout: page
 name: "Boxuan Li （李柏萱）"
-position: "Engineer"
+position: "Master (2026)"
 description: "former master student, now working on marine equipment testing in Qingdao"
 img: assets/img/liboxuan.jpg
-importance: 2023
+importance: 2026
 category: alumni
 email: "jnddlsp@126.com"
 research: "active acoustics, tunas monitoring"

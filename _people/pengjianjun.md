@@ -1,10 +1,10 @@
 ---
 layout: page
 name: "Jianjun Peng (彭建钧)"
-position: "Alumnus"
+position: "Master (2026)"
 description: "former master student"
 img: assets/img/pengjianjun.jpg
-importance: 2023
+importance: 2026
 category: alumni
 email: "m230200670@st.shou.edu.cn"
 research: " Analysis of microplastics in marine organisms"

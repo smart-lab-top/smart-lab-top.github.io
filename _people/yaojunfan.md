@@ -1,10 +1,10 @@
 ---
 layout: page
 name: "Junfan Yao （姚俊凡）"
-position: "Alumnus"
+position: "Master (2026)"
 description: "former master student"
 img: assets/img/yaojunfan.jpg
-importance: 2023
+importance: 2026
 category: alumni
 email: "yjf1156618837@gmail.com"
 research: "active acoustics, deep learning"

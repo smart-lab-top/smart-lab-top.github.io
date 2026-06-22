@@ -1,10 +1,10 @@
 ---
 layout: page
 name: "Muhammad Yafie Rachmat Rizky Hidayat (孟雅飞)"
-position: "Researcher"
+position: "Master (2026)"
 description: "former master student, now at Hasanuddin University"
 img: assets/img/yafie.jpg
-importance: 2023
+importance: 2026
 category: alumni
 email: "yafie_rahmat@yahoo.com"
 research: "Marine Passive Acoustic Fisheries"
