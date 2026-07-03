@@ -199,11 +199,6 @@ ninja.data = [{
           description: "Your intelligent companion for scientific research and ocean exploration",
           section: "People",handler: () => {
               window.location.href = "/people/nexus/";
-            },},{id: "people-pengjianjun",
-          title: 'Pengjianjun',
-          description: "former master student",
-          section: "People",handler: () => {
-              window.location.href = "/people/pengjianjun/";
             },},{id: "people-qiuchuhan",
           title: 'Qiuchuhan',
           description: "Former Master Student",
