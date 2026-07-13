@@ -5,7 +5,8 @@ date: 2026-04-14 10:00:00
 inline: false
 related_posts: false
 ---
-On April 14, 2026, the **SMART Lab** team from Shanghai Ocean University published a comprehensive global synthesis in *Acta Oceanologica Sinica*, systematically mapping the composition and behavior of the **Sound Scattering Layer (SSL)**—the ocean's "biological mirror"—and its implications for future fisheries and climate change.
+
+On April 14, 2026, the **SMART Lab** team from Shanghai Ocean University published a comprehensive global synthesis in _Acta Oceanologica Sinica_, systematically mapping the composition and behavior of the **Sound Scattering Layer (SSL)**—the ocean's "biological mirror"—and its implications for future fisheries and climate change.
 
 ### The Ocean's "Greatest Migration"
 
@@ -26,10 +27,10 @@ The SSL is a ubiquitous acoustic phenomenon caused by dense aggregations of zoop
 
 The review meticulously examines SSL characteristics across the Pacific, Atlantic, Indian, and Polar oceans, as well as the coastal waters of China:
 
-* **Pacific Ocean**: In the Northwest Pacific, researchers identified over 600 zooplankton species, with distribution patterns heavily influenced by the Kuroshio and Oyashio currents
-* **Atlantic Ocean**: The study notes that predation pressure and water temperature shape migration; larger-bodied species dominate colder waters with stronger migration amplitudes
-* **Polar Regions**: In the Arctic and Antarctic, illumination is the dominant driver. Remarkably, SSL organisms remain active even during the "polar night," perceiving subtle changes in light that trigger migration
-* **Coastal China**: In the Yellow Sea, the **Yellow Sea Cold Water Mass (YSCWM)** acts as a critical habitat for Pacific krill, which form dense layers near the seabed during the day
+- **Pacific Ocean**: In the Northwest Pacific, researchers identified over 600 zooplankton species, with distribution patterns heavily influenced by the Kuroshio and Oyashio currents
+- **Atlantic Ocean**: The study notes that predation pressure and water temperature shape migration; larger-bodied species dominate colder waters with stronger migration amplitudes
+- **Polar Regions**: In the Arctic and Antarctic, illumination is the dominant driver. Remarkably, SSL organisms remain active even during the "polar night," perceiving subtle changes in light that trigger migration
+- **Coastal China**: In the Yellow Sea, the **Yellow Sea Cold Water Mass (YSCWM)** acts as a critical habitat for Pacific krill, which form dense layers near the seabed during the day
 
 ### The Future of Deep-Sea Fisheries
 

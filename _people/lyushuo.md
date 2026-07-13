@@ -39,11 +39,11 @@ website: "https://lyushuo-research.com"
 
 ## Publications
 
-- Xue M., et al. (2025). "Reimagining habitat suitability modeling for Pacific saury (Cololabis saira) in the Northwest Pacific Ocean through acoustic data analysis from fishing vessels." *Ecological Informatics*.
-- Lyu S., et al. (2024). "Towards a comprehensive assessment of ichthyofaunal diversity in the Yangtze River estuary: Leveraging environmental DNA technology and bottom trawl surveys." *Heliyon*.
-- Lyu S., et al.  (2024). "Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis." *Fishes*.
-- Zhu Z., et al. (2024). "Investigations on Target Strength Estimation Methods: A Case Study of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." *Fishes*.
-- Qiu Y., et al. (2024). "Refining ecoacoustic indices in aquatic and terrestrial ecosystems: A comprehensive review and bibliometric analysis." *Ecological Indicators*.
+- Xue M., et al. (2025). "Reimagining habitat suitability modeling for Pacific saury (Cololabis saira) in the Northwest Pacific Ocean through acoustic data analysis from fishing vessels." _Ecological Informatics_.
+- Lyu S., et al. (2024). "Towards a comprehensive assessment of ichthyofaunal diversity in the Yangtze River estuary: Leveraging environmental DNA technology and bottom trawl surveys." _Heliyon_.
+- Lyu S., et al. (2024). "Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis." _Fishes_.
+- Zhu Z., et al. (2024). "Investigations on Target Strength Estimation Methods: A Case Study of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." _Fishes_.
+- Qiu Y., et al. (2024). "Refining ecoacoustic indices in aquatic and terrestrial ecosystems: A comprehensive review and bibliometric analysis." _Ecological Indicators_.
 
 ## Contact
 
@@ -53,6 +53,7 @@ website: "https://lyushuo-research.com"
 ## Lab Contributions
 
 During my time with SMART in FSA Lab (2022-2025), I contributed to:
+
 - Diurnal vertical migration of the acoustic scattering layer in the Northwest Pacific Ocean
 - Biodiversity analysis of the Yangtze Estuary
-- Acoustic data analysis 
+- Acoustic data analysis

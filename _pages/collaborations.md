@@ -20,12 +20,14 @@ children:
 ## Professional Networks
 
 ### Asian Fisheries Acoustics Society (AFAS)
+
 The Asian Fisheries Acoustics Society promotes research and application of fisheries acoustics in Asia and beyond.
 
 - **Website**: [afas-acoustic.org](https://www.afas-acoustic.org/)
 - **Focus**: Fisheries acoustics research and applications
 
 ### University of Washington Applied Physics Laboratory - Acoustics
+
 Leading research in underwater acoustics, bioacoustics, and acoustic signal processing.
 
 - **Website**: [acoustics.washington.edu](https://acoustics.washington.edu/)
@@ -33,6 +35,6 @@ Leading research in underwater acoustics, bioacoustics, and acoustic signal proc
 
 ## Current Collaborators
 
-*Detailed collaborator profiles coming soon...*
+_Detailed collaborator profiles coming soon..._
 
 If you're interested in collaborating with SMART Lab, please [contact us](/).

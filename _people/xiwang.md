@@ -9,7 +9,6 @@ category: alumni
 email: "wxi@shou.edu.cn"
 research: "Acoustic sediment classification"
 lab_period: "2021 - 2024"
-
 ---
 
 ## About Me
@@ -36,7 +35,7 @@ lab_period: "2021 - 2024"
 
 ## Publications
 
-- 奚旺, et al.(2024)."一种基于无监督学习算法的鱼探仪底质回波分类." *中国科技信息*.
+- 奚旺, et al.(2024)."一种基于无监督学习算法的鱼探仪底质回波分类." _中国科技信息_.
 
 ## Contact
 
@@ -46,6 +45,7 @@ lab_period: "2021 - 2024"
 ## Lab Contributions
 
 During my time in SMART Lab (2021-2024), I contributed to:
+
 - Using echosounder data for sediment classification
 - Field surveys in Yangtze Estuary
 - Acoustic data analysis and modeling

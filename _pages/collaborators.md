@@ -10,14 +10,15 @@ description: Profiles of our research collaborators and partners.
 ## Research Partners
 
 ### University of Washington - Applied Physics Lab
+
 **Principal Collaborator**: [Dr. XXX](https://acoustics.washington.edu/)
 
 Research collaboration on marine bioacoustics and underwater acoustics technology.
 
-*Joint publications and ongoing research projects in harbor porpoise monitoring and acoustic survey techniques.*
+_Joint publications and ongoing research projects in harbor porpoise monitoring and acoustic survey techniques._
 
 ---
 
-*More collaborator profiles will be added as partnerships develop. This page serves as a directory of our academic and research network.*
+_More collaborator profiles will be added as partnerships develop. This page serves as a directory of our academic and research network._
 
 For collaboration opportunities, please [contact the lab](/).

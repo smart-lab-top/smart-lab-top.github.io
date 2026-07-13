@@ -39,16 +39,16 @@ lab_period: "2019 - 2026"
 
 ## Publications
 
-- Xue M., et al. (2025). "Reimagining habitat suitability modeling for Pacific saury (Cololabis saira) in the Northwest Pacific Ocean through acoustic data analysis from fishing vessels." *Ecological Informatics*.
-- Ma J., et al. (2024). "A lightweight model for echo trace detection in echograms based on improved YOLOv8." *Scientific Reports*.
-- Zhu Z., et al. (2024). "Investigations on Target Strength Estimation Methods: A Case Study of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." *Fishes*.
-- Lyu S., et al. (2024). "Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis." *Fishes*.
-- Qiu Y., et al. (2024). "Refining ecoacoustic indices in aquatic and terrestrial ecosystems: A comprehensive review and bibliometric analysis." *Ecological Indicators*.
-- Zhu Z., et al. (2024). "Assessing the influence of abiotic factors on small pelagic fish distribution across diverse water layers in the Northwest Pacific Ocean through acoustic methods." *Ecological Indicators*.
-- Gao T., et al. (2023). "Characterizing the Sound-Scattering Layer and Its Environmental Drivers in the North Equatorial Current of the Central and Western Pacific Ocean." *Journal of Marine Science and Engineering*.
-- Tong J., et al. (2022). "Automatic single fish detection with a commercial echosounder using YOLO v5 and its application for echosounder calibration." *Frontiers in Marine Science*.
-- Tong J., et al. (2022). "Impacts of Morphological Characteristics on Target Strength of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." *Frontiers in Marine Science*.
-- Xue M., et al. (2021). "Broadband Characteristics of Zooplankton Sound Scattering Layer in the Kuroshio–Oyashio Confluence Region of the Northwest Pacific Ocean in Summer of 2019." *Journal of Marine Science and Engineering*.
+- Xue M., et al. (2025). "Reimagining habitat suitability modeling for Pacific saury (Cololabis saira) in the Northwest Pacific Ocean through acoustic data analysis from fishing vessels." _Ecological Informatics_.
+- Ma J., et al. (2024). "A lightweight model for echo trace detection in echograms based on improved YOLOv8." _Scientific Reports_.
+- Zhu Z., et al. (2024). "Investigations on Target Strength Estimation Methods: A Case Study of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." _Fishes_.
+- Lyu S., et al. (2024). "Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis." _Fishes_.
+- Qiu Y., et al. (2024). "Refining ecoacoustic indices in aquatic and terrestrial ecosystems: A comprehensive review and bibliometric analysis." _Ecological Indicators_.
+- Zhu Z., et al. (2024). "Assessing the influence of abiotic factors on small pelagic fish distribution across diverse water layers in the Northwest Pacific Ocean through acoustic methods." _Ecological Indicators_.
+- Gao T., et al. (2023). "Characterizing the Sound-Scattering Layer and Its Environmental Drivers in the North Equatorial Current of the Central and Western Pacific Ocean." _Journal of Marine Science and Engineering_.
+- Tong J., et al. (2022). "Automatic single fish detection with a commercial echosounder using YOLO v5 and its application for echosounder calibration." _Frontiers in Marine Science_.
+- Tong J., et al. (2022). "Impacts of Morphological Characteristics on Target Strength of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." _Frontiers in Marine Science_.
+- Xue M., et al. (2021). "Broadband Characteristics of Zooplankton Sound Scattering Layer in the Kuroshio–Oyashio Confluence Region of the Northwest Pacific Ocean in Summer of 2019." _Journal of Marine Science and Engineering_.
 
 ## Contact
 

@@ -39,5 +39,5 @@ Coming soon...
 
 ## Contact
 
-- **Email**:  nur998393@gmail.com
+- **Email**: nur998393@gmail.com
 - **Office**: Room 102, College of Marine Living Resource Sciences and Management

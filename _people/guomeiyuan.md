@@ -24,9 +24,9 @@ lab_period: "2023 - 2026"
 
 ## Research Interests
 
--  Stable isotope analysis and trophic niche study
--  Characteristic fatty acid  analysis
--  DNA abundance data analysis and modeling
+- Stable isotope analysis and trophic niche study
+- Characteristic fatty acid analysis
+- DNA abundance data analysis and modeling
 
 ## Education
 

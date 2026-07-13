@@ -16,8 +16,9 @@ This tutorial demonstrates how to visualize the echolocation clicks of the **Yan
 First, let's listen to the echolocation clicks we are going to analyze.
 
 **Note:** Yangtze Finless Porpoise clicks are high-frequency signals (peak energy > 100 kHz), which are well above the human hearing range (typically max 20 kHz).
-*   **Original Audio:** You will likely hear *nothing* or very faint clicks because most of the energy is ultrasonic.
-*   **Downsampled Audio (Pitch Shifted):** We have resampled the audio to 44.1 kHz (slowing it down) to shift the ultrasonic clicks into the audible range for demonstration purposes.
+
+- **Original Audio:** You will likely hear _nothing_ or very faint clicks because most of the energy is ultrasonic.
+- **Downsampled Audio (Pitch Shifted):** We have resampled the audio to 44.1 kHz (slowing it down) to shift the ultrasonic clicks into the audible range for demonstration purposes.
 
 <div class="row mt-3">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -35,6 +36,7 @@ First, let's listen to the echolocation clicks we are going to analyze.
 We will use `librosa` for audio processing and `matplotlib` for visualization.
 
 #### Requirements
+
 ```bash
 pip install librosa matplotlib numpy
 ```
@@ -69,12 +71,12 @@ hop_length = 256
 D = librosa.amplitude_to_db(np.abs(librosa.stft(y, n_fft=n_fft, hop_length=hop_length)), ref=np.max)
 
 # Draw spectrogram without colorbar
-img = librosa.display.specshow(D, 
-                               y_axis='linear', 
-                               x_axis='time', 
-                               sr=sr, 
-                               hop_length=hop_length, 
-                               ax=ax[1], 
+img = librosa.display.specshow(D,
+                               y_axis='linear',
+                               x_axis='time',
+                               sr=sr,
+                               hop_length=hop_length,
+                               ax=ax[1],
                                cmap='inferno')
 
 # Set frequency display range from 50,000Hz to 192,000Hz
@@ -104,9 +106,9 @@ The code above generates the following visualization, showing the precise alignm
 
 ### 3. Understanding the Results
 
-*   **Waveform (Top)**: Shows the click trains as distinct spikes in amplitude over time. You can clearly see the rhythmic nature of the echolocation behavior.
-*   **Spectrogram (Bottom)**: Reveals the spectral energy distribution. Porpoise clicks are broadband but typically have peak energy in very high frequencies (often ultrasonic, >100 kHz), though this recording might be downsampled depending on the hydrophone used.
+- **Waveform (Top)**: Shows the click trains as distinct spikes in amplitude over time. You can clearly see the rhythmic nature of the echolocation behavior.
+- **Spectrogram (Bottom)**: Reveals the spectral energy distribution. Porpoise clicks are broadband but typically have peak energy in very high frequencies (often ultrasonic, >100 kHz), though this recording might be downsampled depending on the hydrophone used.
 
-***
+---
 
-*This tutorial serves as a basic template for acoustic data analysis in our lab.*
+_This tutorial serves as a basic template for acoustic data analysis in our lab._

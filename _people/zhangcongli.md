@@ -31,7 +31,7 @@ lab_period: "2024 - Present"
 ## Education
 
 - **MSc in fishery development**, Shanghai Ocean University (2024 - Present)
-- **BSc in Marine  environmental science**, Southwest Forestry University (2020 - 2024)
+- **BSc in Marine environmental science**, Southwest Forestry University (2020 - 2024)
 
 ## Publications
 

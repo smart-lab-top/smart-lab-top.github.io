@@ -15,10 +15,14 @@
         <h2 class="card-title">{{ person.name }}</h2>
         <p class="card-text">{{ person.position }}</p>
         {% if person.lab_period %}
-        <p class="card-text"><small class="text-info">{{ person.lab_period }}</small></p>
+          <p class="card-text">
+            <small class="text-info">{{ person.lab_period }}</small>
+          </p>
         {% endif %}
         {% if person.research %}
-        <p class="card-text"><small class="text-muted">{{ person.research }}</small></p>
+          <p class="card-text">
+            <small class="text-muted">{{ person.research }}</small>
+          </p>
         {% endif %}
         <div class="row ml-1 mr-1 p-0">
           {% if person.email %}

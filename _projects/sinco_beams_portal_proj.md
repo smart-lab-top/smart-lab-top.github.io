@@ -29,6 +29,7 @@ An advanced web portal for Sinco Beams acoustic profiling, real-time data visual
 ### Research Applications
 
 This portal supports research in:
+
 - Underwater acoustic beamforming
 - Marine acoustic profiling
 - Fisheries acoustic surveys
@@ -45,6 +46,7 @@ This portal supports research in:
 ### Future Developments
 
 Planned enhancements include:
+
 - Advanced beam steering algorithms
 - Machine learning integration for pattern recognition
 - Extended frequency range capabilities
@@ -105,4 +107,4 @@ document.getElementById('portal-password').addEventListener('keypress', function
 
 ---
 
-*For technical support or feature requests, please contact the SMART Lab development team.*
+_For technical support or feature requests, please contact the SMART Lab development team._

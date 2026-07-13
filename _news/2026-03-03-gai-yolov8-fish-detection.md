@@ -5,7 +5,8 @@ date: 2026-03-02 15:45:00
 inline: false
 related_posts: false
 ---
-On March 2, 2026, the **SMART Lab** team from Shanghai Ocean University announced a breakthrough in *Fisheries Research* (Volume 296, Article 107701). The team introduced GAI-YOLOv8, a precision-oriented detection model specifically engineered for identifying fish targets in sonar images, addressing critical needs in monitoring the Critically Endangered Chinese sturgeon (Acipenser sinensis).
+
+On March 2, 2026, the **SMART Lab** team from Shanghai Ocean University announced a breakthrough in _Fisheries Research_ (Volume 296, Article 107701). The team introduced GAI-YOLOv8, a precision-oriented detection model specifically engineered for identifying fish targets in sonar images, addressing critical needs in monitoring the Critically Endangered Chinese sturgeon (Acipenser sinensis).
 
 ### Addressing Conservation Challenges
 
@@ -21,11 +22,11 @@ The SMART Lab team developed GAI-YOLOv8, building upon the YOLOv8n architecture 
 
 ### Key Achievements
 
-* **Superior Detection Performance**: GAI-YOLOv8 achieves **80.8% precision**, **80.8% recall**, **84.9% mAP@0.5**, and **40.7% mAP@0.5:0.95**, outperforming baseline YOLOv8n by **4.5%**, **8.0%**, **5.0%**, and **3.3%**, respectively
-* **Lightweight Architecture**: With only **1.9 M parameters** (a 37% reduction compared to baseline), the model achieves an exceptional balance between accuracy and efficiency, suitable for resource-constrained embedded devices
-* **Comprehensive Dataset**: Validated on a custom dataset of **1,079 sonar images** collected from Chinese sturgeon aquaculture net pens using BlueView M900/220.5-MKII imaging sonar at 2250 kHz
-* **Statistical Robustness**: Five-fold cross-validation demonstrated remarkable stability with mean mAP@0.5 of **78.5%** (standard deviation = 0.029, 95% CI: [0.749, 0.821])
-* **Comparative Excellence**: Outperformed other YOLO variants (YOLOv5n, YOLOv10n, YOLOv11n) and high-accuracy models (Faster R-CNN, DETR, RT-DETR) in efficiency-accuracy trade-offs
+- **Superior Detection Performance**: GAI-YOLOv8 achieves **80.8% precision**, **80.8% recall**, **84.9% mAP@0.5**, and **40.7% mAP@0.5:0.95**, outperforming baseline YOLOv8n by **4.5%**, **8.0%**, **5.0%**, and **3.3%**, respectively
+- **Lightweight Architecture**: With only **1.9 M parameters** (a 37% reduction compared to baseline), the model achieves an exceptional balance between accuracy and efficiency, suitable for resource-constrained embedded devices
+- **Comprehensive Dataset**: Validated on a custom dataset of **1,079 sonar images** collected from Chinese sturgeon aquaculture net pens using BlueView M900/220.5-MKII imaging sonar at 2250 kHz
+- **Statistical Robustness**: Five-fold cross-validation demonstrated remarkable stability with mean mAP@0.5 of **78.5%** (standard deviation = 0.029, 95% CI: [0.749, 0.821])
+- **Comparative Excellence**: Outperformed other YOLO variants (YOLOv5n, YOLOv10n, YOLOv11n) and high-accuracy models (Faster R-CNN, DETR, RT-DETR) in efficiency-accuracy trade-offs
 
 ### Implications for Conservation and Fisheries
 

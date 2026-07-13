@@ -30,7 +30,6 @@ lab_period: "2021 - 2024"
 
 - **MSc in Fisheries Acoustics**, Shanghai Ocean University (2021 - 2024)
 
-
 ## Publications
 
 - Unveiling the Acoustic Signature of Collichthys lucidus: Insights from X-ray Morphometry-Informed Acoustic Modeling and Empirical Analysis

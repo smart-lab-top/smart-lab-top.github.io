@@ -29,6 +29,7 @@ An advanced web portal for real-time monitoring and analysis of ecoacoustic buoy
 ### Research Applications
 
 This portal supports:
+
 - Long-term environmental impact assessments
 - Marine protected area monitoring
 - Fisheries acoustic surveys
@@ -44,6 +45,7 @@ This portal supports:
 ### Future Enhancements
 
 Planned improvements include:
+
 - Mobile app companion
 - Advanced AI analytics
 - Integration with satellite data
@@ -104,4 +106,4 @@ document.getElementById('portal-password').addEventListener('keypress', function
 
 ---
 
-*For technical support or data access requests, please contact the SMART Lab team.*
+_For technical support or data access requests, please contact the SMART Lab team._

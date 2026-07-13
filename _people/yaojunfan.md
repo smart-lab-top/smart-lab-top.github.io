@@ -50,4 +50,3 @@ During my time in SMART Lab (2023-2026), I contributed to:
 - Using deep learning methods to analyze acoustic data
 - 2024 High Seas Fishery Resources Survey in the central and western Pacific Ocean
 - Conducted Field Acoustic Surveys in Waters Such as Ningde, Fujian and Xinxiang, Henan
-

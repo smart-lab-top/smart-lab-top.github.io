@@ -21,7 +21,6 @@ lab_period: "2025 - Present"
     </div>
 </div>
 
-
 ## Research Interests
 
 - Marine mammal bioacoustics
@@ -32,8 +31,6 @@ lab_period: "2025 - Present"
 
 - **BSc in Marine Resources and Environment**,Shanghai Ocean University (2024 - Present)
 
-
 ## Contact
 
 - **Email**: 2407938114@qq.com
-

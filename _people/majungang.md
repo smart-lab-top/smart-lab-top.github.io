@@ -35,7 +35,7 @@ lab_period: "2022 - 2025"
 
 ## Publications
 
-- Ma J ,Tong J ,Xue M , et al. "A lightweight model for echo trace detection in echograms based on improved YOLOv8". *Scientific reports*.
+- Ma J ,Tong J ,Xue M , et al. "A lightweight model for echo trace detection in echograms based on improved YOLOv8". _Scientific reports_.
 
 ## Contact
 

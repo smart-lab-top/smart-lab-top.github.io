@@ -31,7 +31,7 @@ children:
         </p>
 
         <p>I received my Ph.D. in Applied Marine Environmental Studies (Engineering) from the Tokyo University of Marine Science and Technology, Japan, in 2015. I also hold an M.Sc. in Fisheries Resources and a B.Eng. in Marine Fisheries Science and Technology from Shanghai Ocean University.</p>
-        
+
         <p>Currently, I am a Visiting Scholar at the University of Washington (2025.02 - Present). My research focuses on Fisheries Acoustics, Marine Bioacoustics, and Marine Living Resources Survey Techniques.</p>
 
         <h5>Professional Experience</h5>
@@ -42,6 +42,7 @@ children:
             <li><strong>Postdoctoral Researcher</strong>, Shanghai Ocean University (2015.05 - 2017.06)</li>
         </ul>
     </div>
+
 </div>
 
 ---
@@ -49,6 +50,7 @@ children:
 ## Current Lab Members
 
 ### Research Assistants
+
 <div class="row row-cols-1 row-cols-md-3">
 {% assign research_assistants = site.people | where: "category", "assistant" | sort: "importance" %}
 {% for person in research_assistants %}
@@ -57,6 +59,7 @@ children:
 </div>
 
 ### PhD Students
+
 <div class="row row-cols-1 row-cols-md-3">
 {% assign phd_students = site.people | where: "category", "phd" | sort: "importance" %}
 {% for person in phd_students %}
@@ -65,6 +68,7 @@ children:
 </div>
 
 ### Master Students
+
 <div class="row row-cols-1 row-cols-md-3">
 {% assign master_students = site.people | where: "category", "master" | sort: "importance" %}
 {% for person in master_students %}
@@ -73,6 +77,7 @@ children:
 </div>
 
 ### Undergraduate Students
+
 <div class="row row-cols-1 row-cols-md-3">
 {% assign undergraduate_students = site.people | where: "category", "undergraduate" | sort: "importance" %}
 {% for person in undergraduate_students %}

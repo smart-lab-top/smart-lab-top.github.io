@@ -43,8 +43,6 @@ lab_period: "2023 - 2026"
 - Machine Learning Enhanced Ecoacoustic Indices for Coral Reef Species Richness Prediction in Noise-Impacted Soundscapes.
 - Morphological Variation and Species Clustering Patterns in Acropora Corals From The Spermonde Archipelago: A Multivariate Analysis Approach.
 
-
 ## Contact
-
 
 - **Email**: yafie_rahmat@yahoo.com

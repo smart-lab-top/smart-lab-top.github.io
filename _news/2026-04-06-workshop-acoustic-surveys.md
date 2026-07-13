@@ -18,10 +18,10 @@ Since 2021, Shanghai Ocean University has been leading the **Global Fishery Reso
 
 The workshop gathered participants from the **United States, Canada, New Zealand**, and other countries. International and Chinese experts presented cutting-edge research and shared practical experiences across several core themes:
 
-* **Fishery-independent survey methods**: Approaches for assessing marine living resources independent of commercial fishing operations
-* **New technologies and methodologies**: Innovative acoustic survey techniques and emerging tools for marine resource assessment
-* **Uncertainty propagation**: Methods for quantifying and communicating uncertainty in resource survey estimates
-* **Hands-on training**: Participants received practical training on **acoustic equipment calibration** and **data processing software**, gaining firsthand experience with the latest tools and techniques
+- **Fishery-independent survey methods**: Approaches for assessing marine living resources independent of commercial fishing operations
+- **New technologies and methodologies**: Innovative acoustic survey techniques and emerging tools for marine resource assessment
+- **Uncertainty propagation**: Methods for quantifying and communicating uncertainty in resource survey estimates
+- **Hands-on training**: Participants received practical training on **acoustic equipment calibration** and **data processing software**, gaining firsthand experience with the latest tools and techniques
 
 Chinese experts systematically showcased innovative achievements and practical applications from acoustic surveys conducted in the **Northwest Pacific** and **South China Sea** regions.
 

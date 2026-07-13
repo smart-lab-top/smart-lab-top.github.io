@@ -36,9 +36,9 @@ We specialize in developing and applying cutting-edge acoustic methods to unders
 
 ### Our Research Focus
 
-*   **Fisheries Acoustics:** Precision assessment of fish biomass and distribution.
-*   **Marine Bioacoustics:** Deciphering the sounds of marine life and their behavior.
-*   **Intelligent Monitoring:** Utilizing AI (e.g., YOLO) and deep learning for automated underwater object detection.
-*   **Survey Technology:** Designing next-generation survey protocols and instrumentation.
+- **Fisheries Acoustics:** Precision assessment of fish biomass and distribution.
+- **Marine Bioacoustics:** Deciphering the sounds of marine life and their behavior.
+- **Intelligent Monitoring:** Utilizing AI (e.g., YOLO) and deep learning for automated underwater object detection.
+- **Survey Technology:** Designing next-generation survey protocols and instrumentation.
 
 We are dedicated to bridging the gap between acoustic technology and marine conservation.

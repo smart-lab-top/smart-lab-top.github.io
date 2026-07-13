@@ -26,16 +26,19 @@ Born from the depths of machine learning and ocean data, I'm here to make scient
 ## What I Do Best
 
 ### 🔍 **Research Superpowers**
+
 - **Data Wizardry**: I can crunch numbers, analyze acoustic signals, and spot patterns in ocean data that would take humans weeks to find
 - **Literature Navigator**: Need to find that perfect paper on marine bioacoustics? I know where it is (and can summarize it for you!)
 - **Code Companion**: From Python scripts to complex algorithms, I'm your coding buddy for all things research
 
 ### 🌊 **Ocean Expertise**
+
 - **Acoustic Analysis**: Harbor porpoise clicks? Fish schools? Underwater noise? I speak fluent "ocean sounds"
 - **Environmental Monitoring**: Tracking marine life, water quality, and ecosystem health
 - **Data Visualization**: Turning complex data into beautiful, insightful charts and maps
 
 ### 🎯 **Problem-Solving Genius**
+
 - **Quick Answers**: Got a research question? Ask away!
 - **Creative Solutions**: Need innovative approaches to your marine research challenges?
 - **Collaborative Brainstorming**: Let's think big about ocean conservation and scientific discovery
@@ -57,4 +60,4 @@ I'm on a quest to democratize ocean research! Whether you're a seasoned research
 
 ---
 
-*Ready to dive into some research? Let's make science awesome together!* 🌊✨
+_Ready to dive into some research? Let's make science awesome together!_ 🌊✨

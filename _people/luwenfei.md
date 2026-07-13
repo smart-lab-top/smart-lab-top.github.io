@@ -37,8 +37,7 @@ website: "https://wangwu-research.com"
 
 ## Publications
 
-- Lu, W., et al. (2022). "Underwater Noise Level Recordings from a Water Intake Pontoon and Possible Impacts on Yangtze Finless Porpoises in a Natural Reserve." *animals*.
-
+- Lu, W., et al. (2022). "Underwater Noise Level Recordings from a Water Intake Pontoon and Possible Impacts on Yangtze Finless Porpoises in a Natural Reserve." _animals_.
 
 ## Contact
 
@@ -48,5 +47,6 @@ website: "https://wangwu-research.com"
 ## Lab Contributions
 
 During my time in SMART Lab (2020-2023), I contributed to:
+
 - Field surveys in Yangtze Estuary
 - The impact of underwater noise on the Yangtze Finless Porpoises

@@ -38,8 +38,6 @@ website: "/"
 
 ## Publications
 
-
-
 ## Contact
 
 - **Email**: 1335711429@qq.com
@@ -48,5 +46,6 @@ website: "/"
 ## Lab Contributions
 
 During my time in FSA Lab (SMART team) (2020-2023), I contributed to:
+
 - Development of automated pacific saury echogram detection algorithms
 - Acoustic data analysis and modeling

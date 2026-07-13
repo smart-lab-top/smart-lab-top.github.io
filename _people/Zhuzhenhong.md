@@ -26,30 +26,30 @@ website: ""
 
 ## Research Interests
 
-* Acoustic assessment of freshwater fish resources
-* Active acoustic monitoring
-* sound scattering characteristics of fish
+- Acoustic assessment of freshwater fish resources
+- Active acoustic monitoring
+- sound scattering characteristics of fish
 
 ## Education
 
-* **PhD in Fisheries Resources**, Shanghai Ocean University (2021 - 2024)
-* **MSc in Marine Science**, Shanghai Ocean University (2018 - 2021)
-* **BSc in Physical Geography and Resource Environment**, Liaocheng University (2013 - 2017)
+- **PhD in Fisheries Resources**, Shanghai Ocean University (2021 - 2024)
+- **MSc in Marine Science**, Shanghai Ocean University (2018 - 2021)
+- **BSc in Physical Geography and Resource Environment**, Liaocheng University (2013 - 2017)
 
 ## Publications
 
-* Zhu, Z., et al. (2024). "Investigations on Target Strength Estimation Methods: A Case Study of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." *Fishes*.
-* Zhu, Z., et al. (2024). "Assessing the influence of abiotic factors on small pelagic fish distribution across diverse water layers in the Northwest Pacific Ocean through acoustic methods." *Ecological Indicators*.
+- Zhu, Z., et al. (2024). "Investigations on Target Strength Estimation Methods: A Case Study of Chub Mackerel (Scomber japonicus) in the Northwest Pacific Ocean." _Fishes_.
+- Zhu, Z., et al. (2024). "Assessing the influence of abiotic factors on small pelagic fish distribution across diverse water layers in the Northwest Pacific Ocean through acoustic methods." _Ecological Indicators_.
 
 ## Contact
 
-* **Email**: zhuzhenhong1996@163.com
-* **Current Position**: Postdoctoral Researcher, Freshwater Fisheries Research Center, CAFS
+- **Email**: zhuzhenhong1996@163.com
+- **Current Position**: Postdoctoral Researcher, Freshwater Fisheries Research Center, CAFS
 
 ## Lab Contributions
 
 During my time in FSA Lab (2021-2024), I contributed to:
 
-* Field monitoring in the Northwest Pacific and Yangtze Estuary
-* Measurement of acoustic scattering characteristics for chub mackerel and sardines
-* Acoustic data analysis and modeling
+- Field monitoring in the Northwest Pacific and Yangtze Estuary
+- Measurement of acoustic scattering characteristics for chub mackerel and sardines
+- Acoustic data analysis and modeling

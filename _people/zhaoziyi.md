@@ -8,7 +8,6 @@ importance: 2025
 category: undergraduate
 email: "1573084105@qq.com"
 lab_period: "2025 - Present"
-
 ---
 
 ## About Me
@@ -39,4 +38,3 @@ lab_period: "2025 - Present"
 ## Contact
 
 - **Email**: 1573084105@qq.com
-
