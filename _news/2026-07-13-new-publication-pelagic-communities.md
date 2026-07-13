@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "New Publication: Spatiotemporal Patterns of Pelagic Communities in the Northwest Pacific"
-author: Jianfeng Tong
 date: 2026-07-13 10:00:00
-description: Analyzing the environmental effects on pelagic communities using sound scattering layer (SSL) descriptors in the Northwest Pacific Ocean.
-tags: publication acoustics marine-ecology NW-Pacific
-categories: research
-featured: true
+inline: false
+related_posts: false
 ---
 
 We are pleased to announce the publication of our latest research paper in **Ecology and Evolution**.
