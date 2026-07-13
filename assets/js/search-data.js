@@ -144,6 +144,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-04-06-workshop-acoustic-surveys/";
+            },},{id: "news-new-publication-spatiotemporal-patterns-of-pelagic-communities-in-the-northwest-pacific",
+          title: 'New Publication: Spatiotemporal Patterns of Pelagic Communities in the Northwest Pacific',
+          description: "Analyzing the environmental effects on pelagic communities using sound scattering layer (SSL) descriptors in the Northwest Pacific Ocean.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-07-13-new-publication-pelagic-communities/";
             },},{id: "people-zhuzhenhong",
           title: 'Zhuzhenhong',
           description: "Former PhD student, now at Freshwater Fisheries Research Center, CAFS",
