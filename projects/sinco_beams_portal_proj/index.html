@@ -35,12 +35,15 @@ document.getElementById('portal-password').addEventListener('keypress', function
     addBackToTop();
   </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?v=6e8234aca82ebc4da629abdb3866fa90"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?v=6985549d95dbef89044b6414ea944118"></script> <script>
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js').then(function(registration) {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      }, function(err) {
-        console.log('ServiceWorker registration failed: ', err);
-      });
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/sw.js').then(
+        function (registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        },
+        function (err) {
+          console.log('ServiceWorker registration failed: ', err);
+        }
+      );
     });
   }
 </script> </body> </html>
