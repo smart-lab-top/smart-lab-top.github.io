@@ -10,7 +10,7 @@ We are pleased to announce the publication of our latest research paper in **Eco
 
 ### [The Spatiotemporal Patterns and Environmental Effects of Pelagic Communities in the Northwest Pacific Ocean Based on Sound Scattering Layer Descriptors](https://doi.org/10.1002/ece3.73947)
 
-**Authors:** Xue, M., & Tong, Jianfeng (Corresponding Author)
+**Authors:** Xue, M., & Tong, Jianfeng
 
 #### Summary
 
