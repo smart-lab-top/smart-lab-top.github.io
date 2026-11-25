@@ -4,7 +4,7 @@ name: "Yue Qiu (邱悦)"
 position: "Master (2025)"
 description: "Former master student, now working as a research assistant at Shanghai Ocean University."
 img: assets/img/qiuyue.jpg
-importance: 2
+importance: 2025
 category: alumni
 email: "2043497856@qq.com"
 research: "Passive acoustic monitoring, Underwater noise"
