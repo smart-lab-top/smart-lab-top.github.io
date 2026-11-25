@@ -100,7 +100,7 @@ def get_scholar_citations() -> None:
     for pub in author_data["publications"]:
         try:
             # Add a random delay between 1 to 3 seconds to avoid rate limiting
-            time.sleep(random.uniform(1.0, 3.0))
+            pass
             
             pub_id = pub.get("pub_id") or pub.get("author_pub_id")
             if not pub_id:
