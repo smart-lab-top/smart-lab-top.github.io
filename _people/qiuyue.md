@@ -1,14 +1,14 @@
 ---
 layout: page
 name: "Yue Qiu (邱悦)"
-position: "Research Assistant"
+position: "Master (2025)"
 description: "Former master student, now working as a research assistant at Shanghai Ocean University."
 img: assets/img/qiuyue.jpg
 importance: 2
-category: assistant
+category: alumni
 email: "2043497856@qq.com"
 research: "Passive acoustic monitoring, Underwater noise"
-lab_period: "2022 - 2025"
+lab_period: "2022 - 2026"
 ---
 
 ## About Me
@@ -18,7 +18,7 @@ lab_period: "2022 - 2025"
         {% include figure.liquid loading="eager" path="assets/img/qiuyue.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        <p>I completed my master in the FSA Lab (SMART team) at Shanghai Ocean University in 2025. Currently, I am a research assistant at Shanghai Ocean University.</p>
+        <p>I completed my master in the FSA Lab (SMART team) at Shanghai Ocean University in 2025. I have 1 year experience as a research assistant in the FSA Lab. I am currently working in Hangzhou.</p>
     </div>
 </div>
 
